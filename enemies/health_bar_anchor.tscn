@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://dpioak7kwnul2"]
+
+[node name="HealthBarAnchor" type="Node2D" unique_id=2094342051]
+
+[node name="ProgressBar" type="ProgressBar" parent="." unique_id=1138777685]
+visible = false
+offset_left = -5.0
+offset_top = -7.0
+offset_right = -1.0
+offset_bottom = 0.5250001
+fill_mode = 3
+show_percentage = false
+
+[node name="LevelLabel" type="Label" parent="." unique_id=591328083]
+offset_left = -3.0
+offset_top = -8.0
+offset_right = 9.520004
+offset_bottom = 2.4250002
+theme_override_colors/font_color = Color(1, 1, 0, 0.2784314)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0.21176471)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/font_size = 6
+text = "1"

@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://1qtlk6sp8gdu"]
+
+[node name="ExperienceUI" type="Control" unique_id=1549167552]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="ProgressBar" type="ProgressBar" parent="." unique_id=502019886]
+layout_mode = 0
+offset_right = 5.005
+offset_bottom = 80.795
+theme_override_colors/font_color = Color(0.9490196, 0.9490196, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 8
+fill_mode = 3
+show_percentage = false
+
+[node name="LevelContainer" type="HBoxContainer" parent="." unique_id=33345946]
+layout_direction = 2
+layout_mode = 0
+offset_left = 6.0
+offset_top = -3.0
+offset_right = 52.0
+offset_bottom = 20.0
+
+[node name="LabelLevelText" type="Label" parent="LevelContainer" unique_id=195275030]
+visible = false
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 4
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/font_size = 6
+text = "LVL:"
+
+[node name="LevelNumber" type="Label" parent="LevelContainer" unique_id=1618454906]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 8
+text = "1"
+vertical_alignment = 1

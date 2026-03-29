@@ -1,0 +1,3557 @@
+{
+	"autoloads": {
+		"GameEvents": "*uid://xd27d1lm80bo"
+	},
+	"generated_timestamp": "2026-03-27T13:45:28",
+	"project_name": "YouTube Action RPG",
+	"project_settings": {
+		"application": {
+			"description": "",
+			"main_scene": "uid://c6voj8psa80tg",
+			"name": "YouTube Action RPG"
+		},
+		"display": {
+			"height": 180,
+			"width": 320
+		},
+		"input": {
+			"map": {
+				"spatial_editor/freelook_backwards": [
+					"InputEventKey: keycode=83 (S), mods=none, physical=true, location=unspecified, pressed=false, echo=false"
+				],
+				"spatial_editor/freelook_down": [
+					"InputEventKey: keycode=81 (Q), mods=none, physical=true, location=unspecified, pressed=false, echo=false"
+				],
+				"spatial_editor/freelook_forward": [
+					"InputEventKey: keycode=87 (W), mods=none, physical=true, location=unspecified, pressed=false, echo=false"
+				],
+				"spatial_editor/freelook_left": [
+					"InputEventKey: keycode=65 (A), mods=none, physical=true, location=unspecified, pressed=false, echo=false"
+				],
+				"spatial_editor/freelook_right": [
+					"InputEventKey: keycode=68 (D), mods=none, physical=true, location=unspecified, pressed=false, echo=false"
+				],
+				"spatial_editor/freelook_slow_modifier": [
+					"InputEventKey: keycode=4194328 (Alt), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"spatial_editor/freelook_speed_modifier": [
+					"InputEventKey: keycode=4194325 (Shift), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"spatial_editor/freelook_up": [
+					"InputEventKey: keycode=69 (E), mods=none, physical=true, location=unspecified, pressed=false, echo=false"
+				],
+				"spatial_editor/viewport_orbit_modifier_1": [],
+				"spatial_editor/viewport_orbit_modifier_2": [],
+				"spatial_editor/viewport_pan_modifier_1": [
+					"InputEventKey: keycode=4194325 (Shift), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"spatial_editor/viewport_pan_modifier_2": [],
+				"spatial_editor/viewport_zoom_modifier_1": [
+					"InputEventKey: keycode=4194326 (Ctrl), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"spatial_editor/viewport_zoom_modifier_2": [],
+				"ui_accept": [
+					"InputEventKey: keycode=4194309 (Enter), mods=none, physical=false, location=unspecified, pressed=false, echo=false",
+					"InputEventKey: keycode=4194310 (Kp Enter), mods=none, physical=false, location=unspecified, pressed=false, echo=false",
+					"InputEventKey: keycode=32 (Space), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_accessibility_drag_and_drop": [],
+				"ui_cancel": [
+					"InputEventKey: keycode=4194305 (Escape), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_colorpicker_delete_preset": [
+					"InputEventKey: keycode=4194312 (Delete), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_copy": [
+					"InputEventKey: keycode=67 (C), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false",
+					"InputEventKey: keycode=4194311 (Insert), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_cut": [
+					"InputEventKey: keycode=88 (X), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false",
+					"InputEventKey: keycode=4194312 (Delete), mods=Shift, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_down": [
+					"InputEventKey: keycode=4194322 (Down), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_end": [
+					"InputEventKey: keycode=4194318 (End), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_filedialog_refresh": [
+					"InputEventKey: keycode=4194336 (F5), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_filedialog_show_hidden": [
+					"InputEventKey: keycode=72 (H), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_filedialog_up_one_level": [
+					"InputEventKey: keycode=4194308 (Backspace), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_focus_mode": [
+					"InputEventKey: keycode=77 (M), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_focus_next": [
+					"InputEventKey: keycode=4194306 (Tab), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_focus_prev": [
+					"InputEventKey: keycode=4194306 (Tab), mods=Shift, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_graph_delete": [
+					"InputEventKey: keycode=4194312 (Delete), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_graph_duplicate": [
+					"InputEventKey: keycode=68 (D), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_graph_follow_left": [
+					"InputEventKey: keycode=4194319 (Left), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_graph_follow_right": [
+					"InputEventKey: keycode=4194321 (Right), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_home": [
+					"InputEventKey: keycode=4194317 (Home), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_left": [
+					"InputEventKey: keycode=4194319 (Left), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_menu": [
+					"InputEventKey: keycode=4194370 (Menu), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_page_down": [
+					"InputEventKey: keycode=4194324 (PageDown), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_page_up": [
+					"InputEventKey: keycode=4194323 (PageUp), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_paste": [
+					"InputEventKey: keycode=86 (V), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false",
+					"InputEventKey: keycode=4194311 (Insert), mods=Shift, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_redo": [
+					"InputEventKey: keycode=90 (Z), mods=Ctrl+Shift, physical=false, location=unspecified, pressed=false, echo=false",
+					"InputEventKey: keycode=89 (Y), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_right": [
+					"InputEventKey: keycode=4194321 (Right), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_select": [
+					"InputEventKey: keycode=32 (Space), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_swap_input_direction": [
+					"InputEventKey: keycode=96 (QuoteLeft), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_add_selection_for_next_occurrence": [
+					"InputEventKey: keycode=68 (D), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_backspace": [
+					"InputEventKey: keycode=4194308 (Backspace), mods=none, physical=false, location=unspecified, pressed=false, echo=false",
+					"InputEventKey: keycode=4194308 (Backspace), mods=Shift, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_backspace_all_to_left": [],
+				"ui_text_backspace_word": [
+					"InputEventKey: keycode=4194308 (Backspace), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_caret_add_above": [
+					"InputEventKey: keycode=4194320 (Up), mods=Ctrl+Shift, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_caret_add_below": [
+					"InputEventKey: keycode=4194322 (Down), mods=Ctrl+Shift, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_caret_document_end": [
+					"InputEventKey: keycode=4194318 (End), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_caret_document_start": [
+					"InputEventKey: keycode=4194317 (Home), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_caret_down": [
+					"InputEventKey: keycode=4194322 (Down), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_caret_left": [
+					"InputEventKey: keycode=4194319 (Left), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_caret_line_end": [
+					"InputEventKey: keycode=4194318 (End), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_caret_line_start": [
+					"InputEventKey: keycode=4194317 (Home), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_caret_page_down": [
+					"InputEventKey: keycode=4194324 (PageDown), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_caret_page_up": [
+					"InputEventKey: keycode=4194323 (PageUp), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_caret_right": [
+					"InputEventKey: keycode=4194321 (Right), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_caret_up": [
+					"InputEventKey: keycode=4194320 (Up), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_caret_word_left": [
+					"InputEventKey: keycode=4194319 (Left), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_caret_word_right": [
+					"InputEventKey: keycode=4194321 (Right), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_clear_carets_and_selection": [
+					"InputEventKey: keycode=4194305 (Escape), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_completion_accept": [
+					"InputEventKey: keycode=4194306 (Tab), mods=Shift, physical=false, location=unspecified, pressed=false, echo=false",
+					"InputEventKey: keycode=4194309 (Enter), mods=Shift, physical=false, location=unspecified, pressed=false, echo=false",
+					"InputEventKey: keycode=4194310 (Kp Enter), mods=Shift, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_completion_query": [
+					"InputEventKey: keycode=32 (Space), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_completion_replace": [
+					"InputEventKey: keycode=4194306 (Tab), mods=none, physical=false, location=unspecified, pressed=false, echo=false",
+					"InputEventKey: keycode=4194309 (Enter), mods=none, physical=false, location=unspecified, pressed=false, echo=false",
+					"InputEventKey: keycode=4194310 (Kp Enter), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_dedent": [
+					"InputEventKey: keycode=4194306 (Tab), mods=Shift, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_delete": [
+					"InputEventKey: keycode=4194312 (Delete), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_delete_all_to_right": [],
+				"ui_text_delete_word": [
+					"InputEventKey: keycode=4194312 (Delete), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_indent": [
+					"InputEventKey: keycode=4194306 (Tab), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_newline": [
+					"InputEventKey: keycode=4194309 (Enter), mods=none, physical=false, location=unspecified, pressed=false, echo=false",
+					"InputEventKey: keycode=4194310 (Kp Enter), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_newline_above": [
+					"InputEventKey: keycode=4194309 (Enter), mods=Ctrl+Shift, physical=false, location=unspecified, pressed=false, echo=false",
+					"InputEventKey: keycode=4194310 (Kp Enter), mods=Ctrl+Shift, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_newline_blank": [
+					"InputEventKey: keycode=4194309 (Enter), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false",
+					"InputEventKey: keycode=4194310 (Kp Enter), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_scroll_down": [
+					"InputEventKey: keycode=4194322 (Down), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_scroll_up": [
+					"InputEventKey: keycode=4194320 (Up), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_select_all": [
+					"InputEventKey: keycode=65 (A), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_select_word_under_caret": [
+					"InputEventKey: keycode=71 (G), mods=Alt, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_skip_selection_for_next_occurrence": [
+					"InputEventKey: keycode=68 (D), mods=Ctrl+Alt, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_submit": [
+					"InputEventKey: keycode=4194309 (Enter), mods=none, physical=false, location=unspecified, pressed=false, echo=false",
+					"InputEventKey: keycode=4194310 (Kp Enter), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_text_toggle_insert_mode": [
+					"InputEventKey: keycode=4194311 (Insert), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_undo": [
+					"InputEventKey: keycode=90 (Z), mods=Ctrl, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_unicode_start": [
+					"InputEventKey: keycode=85 (U), mods=Ctrl+Shift, physical=false, location=unspecified, pressed=false, echo=false"
+				],
+				"ui_up": [
+					"InputEventKey: keycode=4194320 (Up), mods=none, physical=false, location=unspecified, pressed=false, echo=false"
+				]
+			}
+		},
+		"physics": {
+
+		},
+		"rendering": {
+
+		}
+	},
+	"scenes": [
+		{
+			"path": "res:///pauser.tscn",
+			"root_node": {
+				"children": [
+					{
+						"children": [],
+						"groups": [],
+						"name": "PauseAudioStreamPlayer",
+						"properties": {
+							"bus": "Sounds",
+							"stream": "res://music_and_sounds/pause.wav"
+						},
+						"script": "",
+						"type": "AudioStreamPlayer"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "UnpauseAudioStreamPlayer",
+						"properties": {
+							"bus": "Sounds",
+							"stream": "res://music_and_sounds/unpause.wav"
+						},
+						"script": "",
+						"type": "AudioStreamPlayer"
+					}
+				],
+				"groups": [],
+				"name": "Pauser",
+				"properties": {
+					"metadata/_custom_type_script": "uid://hm75x32gi2rk",
+					"process_mode": 3,
+					"script": "res://pauser.gd"
+				},
+				"script": "res://pauser.gd",
+				"type": "Node"
+			}
+		},
+		{
+			"path": "res:///world.tscn",
+			"root_node": {
+				"children": [
+					{
+						"children": [
+							{
+								"children": [
+									{
+										"children": [],
+										"groups": [],
+										"name": "GrassBackground",
+										"properties": {
+											"size": [
+												320.0,
+												192.0
+											],
+											"stretch_mode": 1,
+											"texture": "res://world/grass_background.png"
+										},
+										"script": "",
+										"type": "TextureRect"
+									}
+								],
+								"groups": [],
+								"name": "Parallax2D",
+								"properties": {
+									"repeat_size": [
+										320.0,
+										192.0
+									]
+								},
+								"script": "",
+								"type": "Parallax2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "DirtTileMapLayer",
+								"properties": {
+									"occlusion_enabled": false,
+									"tile_set": "res://world/dirt_tileset.tres"
+								},
+								"script": "",
+								"type": "TileMapLayer"
+							},
+							{
+								"children": [],
+								"groups": [
+									"navigation_polygon_source_geometry_group"
+								],
+								"name": "CliffTileMapLayer",
+								"properties": {
+									"tile_set": "res://world/cliff_tileset.tres"
+								},
+								"script": "",
+								"type": "TileMapLayer"
+							}
+						],
+						"groups": [],
+						"name": "GroundLayer",
+						"properties": {
+							"z_index": -10
+						},
+						"script": "",
+						"type": "Node2D"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "NavigationRegion2D",
+						"properties": {
+							"metadata/_edit_lock_": true,
+							"navigation_polygon": "res://world.tscn::NavigationPolygon_ic0uy"
+						},
+						"script": "",
+						"type": "NavigationRegion2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"hframes": 60,
+									"position": [
+										0.0,
+										-8.0
+									],
+									"texture": "res://player/player.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "AnimationPlayer",
+								"properties": {
+									"libraries": {
+										"": "<AnimationLibrary#-9223369636622284512>"
+									}
+								},
+								"script": "",
+								"type": "AnimationPlayer"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "AnimationTree",
+								"properties": {
+									"advance_expression_base_node": "..",
+									"anim_player": "../AnimationPlayer",
+									"callback_mode_discrete": 1,
+									"parameters/StateMachine/AttackState/blend_position": [
+										-0.00173550995532423,
+										-0.655324995517731
+									],
+									"parameters/StateMachine/MoveState/RunState/blend_position": [
+										0.0,
+										-0.852348983287811
+									],
+									"parameters/StateMachine/MoveState/StandState/blend_position": [
+										-0.00550258019939065,
+										-0.466033011674881
+									],
+									"parameters/StateMachine/MoveState/playback": "<AnimationNodeStateMachinePlayback#-9223366434287941550>",
+									"parameters/StateMachine/RollState/blend_position": [
+										0.00078403897350654,
+										-0.487875998020172
+									],
+									"parameters/StateMachine/playback": "<AnimationNodeStateMachinePlayback#-9223366434321495985>",
+									"parameters/TimeScale/scale": 1.0,
+									"tree_root": "res://player/player.tscn::AnimationNodeBlendTree_g1dw6"
+								},
+								"script": "",
+								"type": "AnimationTree"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "Camera2D",
+								"properties": {
+									"position": [
+										0.0,
+										-8.0
+									],
+									"position_smoothing_enabled": true,
+									"process_callback": 0
+								},
+								"script": "",
+								"type": "Camera2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "CollisionPolygon2D",
+								"properties": {
+									"polygon": "[(0.0, 13.0), (-5.0, 6.0), (0.0, 0.0), (5.0, 6.0)]",
+									"position": [
+										0.0,
+										-8.0
+									]
+								},
+								"script": "",
+								"type": "CollisionPolygon2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "ShadowSprite2D",
+								"properties": {
+									"position": [
+										0.0,
+										3.0
+									],
+									"show_behind_parent": true,
+									"texture": "res://shadows/medium_shadow.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [
+									{
+										"children": [],
+										"groups": [],
+										"name": "CollisionPolygon2D",
+										"properties": {
+
+										},
+										"script": "",
+										"type": "CollisionPolygon2D"
+									}
+								],
+								"groups": [],
+								"name": "Hitbox",
+								"properties": {
+									"collision_layer": 16,
+									"collision_mask": 16,
+									"damage": 1,
+									"knockback_amount": 200,
+									"knockback_direction": [
+										0.0,
+										1.0
+									],
+									"metadata/_custom_type_script": "uid://pohlsv6qsc43",
+									"script": "res://damage_boxes/hitbox.gd",
+									"stores_hit_targets": true
+								},
+								"script": "res://damage_boxes/hitbox.gd",
+								"type": "Area2D"
+							},
+							{
+								"children": [
+									{
+										"children": [],
+										"groups": [],
+										"name": "CollisionShape2D",
+										"properties": {
+											"position": [
+												-0.5,
+												-2.0
+											],
+											"shape": "res://player/player.tscn::RectangleShape2D_boad6"
+										},
+										"script": "",
+										"type": "CollisionShape2D"
+									}
+								],
+								"groups": [],
+								"name": "Hurtbox",
+								"properties": {
+									"collision_layer": 8,
+									"collision_mask": 8,
+									"metadata/_custom_type_script": "uid://bd2edxcfsqqt1",
+									"script": "res://damage_boxes/hurtbox.gd"
+								},
+								"script": "res://damage_boxes/hurtbox.gd",
+								"type": "Area2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "BlinkAnimationPlayer",
+								"properties": {
+									"libraries": {
+										"": "<AnimationLibrary#-9223369635900864181>"
+									}
+								},
+								"script": "",
+								"type": "AnimationPlayer"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "AudioStreamPlayer",
+								"properties": {
+									"bus": "Sounds"
+								},
+								"script": "",
+								"type": "AudioStreamPlayer"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "HurtAudioStreamPlayer",
+								"properties": {
+									"bus": "Sounds",
+									"stream": "res://music_and_sounds/hurt.wav"
+								},
+								"script": "",
+								"type": "AudioStreamPlayer"
+							}
+						],
+						"groups": [
+							"player"
+						],
+						"name": "Player",
+						"properties": {
+							"collision_layer": 2,
+							"motion_mode": 1,
+							"position": [
+								200.0,
+								96.0
+							],
+							"script": "res://player/player.gd",
+							"stats": "res://player/player_stats.tres"
+						},
+						"script": "res://player/player.gd",
+						"type": "CharacterBody2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"position": [
+										0.0,
+										-7.0
+									],
+									"texture": "res://world/bush.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "CollisionShape2D",
+								"properties": {
+									"position": [
+										0.0,
+										-7.0
+									],
+									"shape": "res://world/bush.tscn::CircleShape2D_38vgs"
+								},
+								"script": "",
+								"type": "CollisionShape2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "ShadowSprite2D2",
+								"properties": {
+									"show_behind_parent": true,
+									"texture": "res://shadows/large_shadow.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							}
+						],
+						"groups": [
+							"navigation_polygon_source_geometry_group"
+						],
+						"name": "Bush",
+						"properties": {
+							"position": [
+								168.0,
+								232.0
+							]
+						},
+						"script": "",
+						"type": "StaticBody2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"position": [
+										0.0,
+										-7.0
+									],
+									"texture": "res://world/bush.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "CollisionShape2D",
+								"properties": {
+									"position": [
+										0.0,
+										-7.0
+									],
+									"shape": "res://world/bush.tscn::CircleShape2D_38vgs"
+								},
+								"script": "",
+								"type": "CollisionShape2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "ShadowSprite2D2",
+								"properties": {
+									"show_behind_parent": true,
+									"texture": "res://shadows/large_shadow.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							}
+						],
+						"groups": [
+							"navigation_polygon_source_geometry_group"
+						],
+						"name": "Bush2",
+						"properties": {
+							"position": [
+								112.0,
+								64.0
+							]
+						},
+						"script": "",
+						"type": "StaticBody2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"position": [
+										0.0,
+										-7.0
+									],
+									"texture": "res://world/bush.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "CollisionShape2D",
+								"properties": {
+									"position": [
+										0.0,
+										-7.0
+									],
+									"shape": "res://world/bush.tscn::CircleShape2D_38vgs"
+								},
+								"script": "",
+								"type": "CollisionShape2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "ShadowSprite2D2",
+								"properties": {
+									"show_behind_parent": true,
+									"texture": "res://shadows/large_shadow.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							}
+						],
+						"groups": [
+							"navigation_polygon_source_geometry_group"
+						],
+						"name": "Bush3",
+						"properties": {
+							"position": [
+								160.0,
+								40.0
+							]
+						},
+						"script": "",
+						"type": "StaticBody2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"position": [
+										0.0,
+										-7.0
+									],
+									"texture": "res://world/bush.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "CollisionShape2D",
+								"properties": {
+									"position": [
+										0.0,
+										-7.0
+									],
+									"shape": "res://world/bush.tscn::CircleShape2D_38vgs"
+								},
+								"script": "",
+								"type": "CollisionShape2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "ShadowSprite2D2",
+								"properties": {
+									"show_behind_parent": true,
+									"texture": "res://shadows/large_shadow.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							}
+						],
+						"groups": [
+							"navigation_polygon_source_geometry_group"
+						],
+						"name": "Bush4",
+						"properties": {
+							"position": [
+								72.0,
+								152.0
+							]
+						},
+						"script": "",
+						"type": "StaticBody2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"position": [
+										0.0,
+										-7.0
+									],
+									"texture": "res://world/bush.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "CollisionShape2D",
+								"properties": {
+									"position": [
+										0.0,
+										-7.0
+									],
+									"shape": "res://world/bush.tscn::CircleShape2D_38vgs"
+								},
+								"script": "",
+								"type": "CollisionShape2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "ShadowSprite2D2",
+								"properties": {
+									"show_behind_parent": true,
+									"texture": "res://shadows/large_shadow.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							}
+						],
+						"groups": [
+							"navigation_polygon_source_geometry_group"
+						],
+						"name": "Bush5",
+						"properties": {
+							"position": [
+								224.0,
+								208.0
+							]
+						},
+						"script": "",
+						"type": "StaticBody2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"position": [
+										0.0,
+										-7.0
+									],
+									"texture": "res://world/bush.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "CollisionShape2D",
+								"properties": {
+									"position": [
+										0.0,
+										-7.0
+									],
+									"shape": "res://world/bush.tscn::CircleShape2D_38vgs"
+								},
+								"script": "",
+								"type": "CollisionShape2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "ShadowSprite2D2",
+								"properties": {
+									"show_behind_parent": true,
+									"texture": "res://shadows/large_shadow.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							}
+						],
+						"groups": [
+							"navigation_polygon_source_geometry_group"
+						],
+						"name": "Bush6",
+						"properties": {
+							"position": [
+								272.0,
+								72.0
+							]
+						},
+						"script": "",
+						"type": "StaticBody2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"position": [
+										0.0,
+										-7.0
+									],
+									"texture": "res://world/bush.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "CollisionShape2D",
+								"properties": {
+									"position": [
+										0.0,
+										-7.0
+									],
+									"shape": "res://world/bush.tscn::CircleShape2D_38vgs"
+								},
+								"script": "",
+								"type": "CollisionShape2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "ShadowSprite2D2",
+								"properties": {
+									"show_behind_parent": true,
+									"texture": "res://shadows/large_shadow.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							}
+						],
+						"groups": [
+							"navigation_polygon_source_geometry_group"
+						],
+						"name": "Bush7",
+						"properties": {
+							"position": [
+								280.0,
+								288.0
+							]
+						},
+						"script": "",
+						"type": "StaticBody2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"position": [
+										0.0,
+										-17.0
+									],
+									"texture": "res://world/tree.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "CollisionShape2D",
+								"properties": {
+									"position": [
+										0.0,
+										-8.0
+									],
+									"shape": "res://world/tree.tscn::CircleShape2D_1q5bg"
+								},
+								"script": "",
+								"type": "CollisionShape2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "ShadowSprite2D2",
+								"properties": {
+									"show_behind_parent": true,
+									"texture": "res://shadows/large_shadow.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							}
+						],
+						"groups": [
+							"navigation_polygon_source_geometry_group"
+						],
+						"name": "Tree",
+						"properties": {
+							"position": [
+								232.0,
+								128.0
+							]
+						},
+						"script": "",
+						"type": "StaticBody2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"position": [
+										0.0,
+										-17.0
+									],
+									"texture": "res://world/tree.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "CollisionShape2D",
+								"properties": {
+									"position": [
+										0.0,
+										-8.0
+									],
+									"shape": "res://world/tree.tscn::CircleShape2D_1q5bg"
+								},
+								"script": "",
+								"type": "CollisionShape2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "ShadowSprite2D2",
+								"properties": {
+									"show_behind_parent": true,
+									"texture": "res://shadows/large_shadow.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							}
+						],
+						"groups": [
+							"navigation_polygon_source_geometry_group"
+						],
+						"name": "Tree2",
+						"properties": {
+							"position": [
+								104.0,
+								200.0
+							]
+						},
+						"script": "",
+						"type": "StaticBody2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"position": [
+										0.0,
+										-17.0
+									],
+									"texture": "res://world/tree.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "CollisionShape2D",
+								"properties": {
+									"position": [
+										0.0,
+										-8.0
+									],
+									"shape": "res://world/tree.tscn::CircleShape2D_1q5bg"
+								},
+								"script": "",
+								"type": "CollisionShape2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "ShadowSprite2D2",
+								"properties": {
+									"show_behind_parent": true,
+									"texture": "res://shadows/large_shadow.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							}
+						],
+						"groups": [
+							"navigation_polygon_source_geometry_group"
+						],
+						"name": "Tree3",
+						"properties": {
+							"position": [
+								88.0,
+								40.0
+							]
+						},
+						"script": "",
+						"type": "StaticBody2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"position": [
+										0.0,
+										-17.0
+									],
+									"texture": "res://world/tree.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "CollisionShape2D",
+								"properties": {
+									"position": [
+										0.0,
+										-8.0
+									],
+									"shape": "res://world/tree.tscn::CircleShape2D_1q5bg"
+								},
+								"script": "",
+								"type": "CollisionShape2D"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "ShadowSprite2D2",
+								"properties": {
+									"show_behind_parent": true,
+									"texture": "res://shadows/large_shadow.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							}
+						],
+						"groups": [
+							"navigation_polygon_source_geometry_group"
+						],
+						"name": "Tree4",
+						"properties": {
+							"position": [
+								80.0,
+								56.0
+							]
+						},
+						"script": "",
+						"type": "StaticBody2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"texture": "res://world/grass.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [
+									{
+										"children": [],
+										"groups": [],
+										"name": "CollisionShape2D",
+										"properties": {
+											"shape": "res://world/grass.tscn::RectangleShape2D_44d1o"
+										},
+										"script": "",
+										"type": "CollisionShape2D"
+									}
+								],
+								"groups": [],
+								"name": "Hurtbox",
+								"properties": {
+									"collision_layer": 16,
+									"collision_mask": 16,
+									"metadata/_custom_type_script": "uid://bd2edxcfsqqt1",
+									"script": "res://damage_boxes/hurtbox.gd"
+								},
+								"script": "res://damage_boxes/hurtbox.gd",
+								"type": "Area2D"
+							}
+						],
+						"groups": [],
+						"name": "Grass",
+						"properties": {
+							"GRASS_EFFECT": "res://effects/grass_effect.tscn",
+							"position": [
+								40.0,
+								40.0
+							],
+							"script": "res://world/grass.gd"
+						},
+						"script": "res://world/grass.gd",
+						"type": "Node2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"texture": "res://world/grass.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [
+									{
+										"children": [],
+										"groups": [],
+										"name": "CollisionShape2D",
+										"properties": {
+											"shape": "res://world/grass.tscn::RectangleShape2D_44d1o"
+										},
+										"script": "",
+										"type": "CollisionShape2D"
+									}
+								],
+								"groups": [],
+								"name": "Hurtbox",
+								"properties": {
+									"collision_layer": 16,
+									"collision_mask": 16,
+									"metadata/_custom_type_script": "uid://bd2edxcfsqqt1",
+									"script": "res://damage_boxes/hurtbox.gd"
+								},
+								"script": "res://damage_boxes/hurtbox.gd",
+								"type": "Area2D"
+							}
+						],
+						"groups": [],
+						"name": "Grass3",
+						"properties": {
+							"GRASS_EFFECT": "res://effects/grass_effect.tscn",
+							"position": [
+								56.0,
+								40.0
+							],
+							"script": "res://world/grass.gd"
+						},
+						"script": "res://world/grass.gd",
+						"type": "Node2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"texture": "res://world/grass.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [
+									{
+										"children": [],
+										"groups": [],
+										"name": "CollisionShape2D",
+										"properties": {
+											"shape": "res://world/grass.tscn::RectangleShape2D_44d1o"
+										},
+										"script": "",
+										"type": "CollisionShape2D"
+									}
+								],
+								"groups": [],
+								"name": "Hurtbox",
+								"properties": {
+									"collision_layer": 16,
+									"collision_mask": 16,
+									"metadata/_custom_type_script": "uid://bd2edxcfsqqt1",
+									"script": "res://damage_boxes/hurtbox.gd"
+								},
+								"script": "res://damage_boxes/hurtbox.gd",
+								"type": "Area2D"
+							}
+						],
+						"groups": [],
+						"name": "Grass4",
+						"properties": {
+							"GRASS_EFFECT": "res://effects/grass_effect.tscn",
+							"position": [
+								56.0,
+								56.0
+							],
+							"script": "res://world/grass.gd"
+						},
+						"script": "res://world/grass.gd",
+						"type": "Node2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"texture": "res://world/grass.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [
+									{
+										"children": [],
+										"groups": [],
+										"name": "CollisionShape2D",
+										"properties": {
+											"shape": "res://world/grass.tscn::RectangleShape2D_44d1o"
+										},
+										"script": "",
+										"type": "CollisionShape2D"
+									}
+								],
+								"groups": [],
+								"name": "Hurtbox",
+								"properties": {
+									"collision_layer": 16,
+									"collision_mask": 16,
+									"metadata/_custom_type_script": "uid://bd2edxcfsqqt1",
+									"script": "res://damage_boxes/hurtbox.gd"
+								},
+								"script": "res://damage_boxes/hurtbox.gd",
+								"type": "Area2D"
+							}
+						],
+						"groups": [],
+						"name": "Grass2",
+						"properties": {
+							"GRASS_EFFECT": "res://effects/grass_effect.tscn",
+							"position": [
+								40.0,
+								56.0
+							],
+							"script": "res://world/grass.gd"
+						},
+						"script": "res://world/grass.gd",
+						"type": "Node2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"texture": "res://world/grass.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [
+									{
+										"children": [],
+										"groups": [],
+										"name": "CollisionShape2D",
+										"properties": {
+											"shape": "res://world/grass.tscn::RectangleShape2D_44d1o"
+										},
+										"script": "",
+										"type": "CollisionShape2D"
+									}
+								],
+								"groups": [],
+								"name": "Hurtbox",
+								"properties": {
+									"collision_layer": 16,
+									"collision_mask": 16,
+									"metadata/_custom_type_script": "uid://bd2edxcfsqqt1",
+									"script": "res://damage_boxes/hurtbox.gd"
+								},
+								"script": "res://damage_boxes/hurtbox.gd",
+								"type": "Area2D"
+							}
+						],
+						"groups": [],
+						"name": "Grass5",
+						"properties": {
+							"GRASS_EFFECT": "res://effects/grass_effect.tscn",
+							"position": [
+								8.0,
+								152.0
+							],
+							"script": "res://world/grass.gd"
+						},
+						"script": "res://world/grass.gd",
+						"type": "Node2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"texture": "res://world/grass.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [
+									{
+										"children": [],
+										"groups": [],
+										"name": "CollisionShape2D",
+										"properties": {
+											"shape": "res://world/grass.tscn::RectangleShape2D_44d1o"
+										},
+										"script": "",
+										"type": "CollisionShape2D"
+									}
+								],
+								"groups": [],
+								"name": "Hurtbox",
+								"properties": {
+									"collision_layer": 16,
+									"collision_mask": 16,
+									"metadata/_custom_type_script": "uid://bd2edxcfsqqt1",
+									"script": "res://damage_boxes/hurtbox.gd"
+								},
+								"script": "res://damage_boxes/hurtbox.gd",
+								"type": "Area2D"
+							}
+						],
+						"groups": [],
+						"name": "Grass6",
+						"properties": {
+							"GRASS_EFFECT": "res://effects/grass_effect.tscn",
+							"position": [
+								24.0,
+								152.0
+							],
+							"script": "res://world/grass.gd"
+						},
+						"script": "res://world/grass.gd",
+						"type": "Node2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"texture": "res://world/grass.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [
+									{
+										"children": [],
+										"groups": [],
+										"name": "CollisionShape2D",
+										"properties": {
+											"shape": "res://world/grass.tscn::RectangleShape2D_44d1o"
+										},
+										"script": "",
+										"type": "CollisionShape2D"
+									}
+								],
+								"groups": [],
+								"name": "Hurtbox",
+								"properties": {
+									"collision_layer": 16,
+									"collision_mask": 16,
+									"metadata/_custom_type_script": "uid://bd2edxcfsqqt1",
+									"script": "res://damage_boxes/hurtbox.gd"
+								},
+								"script": "res://damage_boxes/hurtbox.gd",
+								"type": "Area2D"
+							}
+						],
+						"groups": [],
+						"name": "Grass7",
+						"properties": {
+							"GRASS_EFFECT": "res://effects/grass_effect.tscn",
+							"position": [
+								280.0,
+								120.0
+							],
+							"script": "res://world/grass.gd"
+						},
+						"script": "res://world/grass.gd",
+						"type": "Node2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"texture": "res://world/grass.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [
+									{
+										"children": [],
+										"groups": [],
+										"name": "CollisionShape2D",
+										"properties": {
+											"shape": "res://world/grass.tscn::RectangleShape2D_44d1o"
+										},
+										"script": "",
+										"type": "CollisionShape2D"
+									}
+								],
+								"groups": [],
+								"name": "Hurtbox",
+								"properties": {
+									"collision_layer": 16,
+									"collision_mask": 16,
+									"metadata/_custom_type_script": "uid://bd2edxcfsqqt1",
+									"script": "res://damage_boxes/hurtbox.gd"
+								},
+								"script": "res://damage_boxes/hurtbox.gd",
+								"type": "Area2D"
+							}
+						],
+						"groups": [],
+						"name": "Grass8",
+						"properties": {
+							"GRASS_EFFECT": "res://effects/grass_effect.tscn",
+							"position": [
+								264.0,
+								120.0
+							],
+							"script": "res://world/grass.gd"
+						},
+						"script": "res://world/grass.gd",
+						"type": "Node2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"texture": "res://world/grass.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [
+									{
+										"children": [],
+										"groups": [],
+										"name": "CollisionShape2D",
+										"properties": {
+											"shape": "res://world/grass.tscn::RectangleShape2D_44d1o"
+										},
+										"script": "",
+										"type": "CollisionShape2D"
+									}
+								],
+								"groups": [],
+								"name": "Hurtbox",
+								"properties": {
+									"collision_layer": 16,
+									"collision_mask": 16,
+									"metadata/_custom_type_script": "uid://bd2edxcfsqqt1",
+									"script": "res://damage_boxes/hurtbox.gd"
+								},
+								"script": "res://damage_boxes/hurtbox.gd",
+								"type": "Area2D"
+							}
+						],
+						"groups": [],
+						"name": "Grass9",
+						"properties": {
+							"GRASS_EFFECT": "res://effects/grass_effect.tscn",
+							"position": [
+								264.0,
+								104.0
+							],
+							"script": "res://world/grass.gd"
+						},
+						"script": "res://world/grass.gd",
+						"type": "Node2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"texture": "res://world/grass.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [
+									{
+										"children": [],
+										"groups": [],
+										"name": "CollisionShape2D",
+										"properties": {
+											"shape": "res://world/grass.tscn::RectangleShape2D_44d1o"
+										},
+										"script": "",
+										"type": "CollisionShape2D"
+									}
+								],
+								"groups": [],
+								"name": "Hurtbox",
+								"properties": {
+									"collision_layer": 16,
+									"collision_mask": 16,
+									"metadata/_custom_type_script": "uid://bd2edxcfsqqt1",
+									"script": "res://damage_boxes/hurtbox.gd"
+								},
+								"script": "res://damage_boxes/hurtbox.gd",
+								"type": "Area2D"
+							}
+						],
+						"groups": [],
+						"name": "Grass10",
+						"properties": {
+							"GRASS_EFFECT": "res://effects/grass_effect.tscn",
+							"position": [
+								264.0,
+								88.0
+							],
+							"script": "res://world/grass.gd"
+						},
+						"script": "res://world/grass.gd",
+						"type": "Node2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"texture": "res://world/grass.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [
+									{
+										"children": [],
+										"groups": [],
+										"name": "CollisionShape2D",
+										"properties": {
+											"shape": "res://world/grass.tscn::RectangleShape2D_44d1o"
+										},
+										"script": "",
+										"type": "CollisionShape2D"
+									}
+								],
+								"groups": [],
+								"name": "Hurtbox",
+								"properties": {
+									"collision_layer": 16,
+									"collision_mask": 16,
+									"metadata/_custom_type_script": "uid://bd2edxcfsqqt1",
+									"script": "res://damage_boxes/hurtbox.gd"
+								},
+								"script": "res://damage_boxes/hurtbox.gd",
+								"type": "Area2D"
+							}
+						],
+						"groups": [],
+						"name": "Grass11",
+						"properties": {
+							"GRASS_EFFECT": "res://effects/grass_effect.tscn",
+							"position": [
+								280.0,
+								88.0
+							],
+							"script": "res://world/grass.gd"
+						},
+						"script": "res://world/grass.gd",
+						"type": "Node2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Sprite2D",
+								"properties": {
+									"texture": "res://world/grass.png"
+								},
+								"script": "",
+								"type": "Sprite2D"
+							},
+							{
+								"children": [
+									{
+										"children": [],
+										"groups": [],
+										"name": "CollisionShape2D",
+										"properties": {
+											"shape": "res://world/grass.tscn::RectangleShape2D_44d1o"
+										},
+										"script": "",
+										"type": "CollisionShape2D"
+									}
+								],
+								"groups": [],
+								"name": "Hurtbox",
+								"properties": {
+									"collision_layer": 16,
+									"collision_mask": 16,
+									"metadata/_custom_type_script": "uid://bd2edxcfsqqt1",
+									"script": "res://damage_boxes/hurtbox.gd"
+								},
+								"script": "res://damage_boxes/hurtbox.gd",
+								"type": "Area2D"
+							}
+						],
+						"groups": [],
+						"name": "Grass12",
+						"properties": {
+							"GRASS_EFFECT": "res://effects/grass_effect.tscn",
+							"position": [
+								280.0,
+								104.0
+							],
+							"script": "res://world/grass.gd"
+						},
+						"script": "res://world/grass.gd",
+						"type": "Node2D"
+					},
+					{
+						"children": [
+							{
+								"children": [
+									{
+										"children": [],
+										"groups": [],
+										"name": "EmptyHearts",
+										"properties": {
+											"layout_mode": 0,
+											"size": [
+												60.0,
+												11.0
+											],
+											"stretch_mode": 1,
+											"texture": "res://ui/heart_ui_empty.png"
+										},
+										"script": "",
+										"type": "TextureRect"
+									},
+									{
+										"children": [],
+										"groups": [],
+										"name": "FullHearts",
+										"properties": {
+											"expand_mode": 1,
+											"layout_mode": 0,
+											"size": [
+												29.0,
+												11.0
+											],
+											"stretch_mode": 1,
+											"texture": "res://ui/heart_ui_full.png"
+										},
+										"script": "",
+										"type": "TextureRect"
+									}
+								],
+								"groups": [],
+								"name": "HeartsUI",
+								"properties": {
+									"player_stats": "res://player/player_stats.tres",
+									"position": [
+										8.0,
+										8.0
+									],
+									"script": "res://ui/hearts_ui.gd",
+									"size": [
+										16.0,
+										16.0
+									]
+								},
+								"script": "res://ui/hearts_ui.gd",
+								"type": "Control"
+							},
+							{
+								"children": [
+									{
+										"children": [],
+										"groups": [],
+										"name": "ProgressBar",
+										"properties": {
+											"fill_mode": 3,
+											"layout_mode": 0,
+											"show_percentage": false,
+											"size": [
+												5.00500011444092,
+												80.7949981689453
+											],
+											"theme_override_colors/font_color": [
+												0.949019610881805,
+												0.949019610881805,
+												0.0,
+												1.0
+											],
+											"theme_override_colors/font_outline_color": [
+												0.0,
+												0.0,
+												0.0,
+												1.0
+											],
+											"theme_override_font_sizes/font_size": 8
+										},
+										"script": "",
+										"type": "ProgressBar"
+									},
+									{
+										"children": [
+											{
+												"children": [],
+												"groups": [],
+												"name": "LabelLevelText",
+												"properties": {
+													"layout_mode": 2,
+													"text": "LVL:",
+													"theme_override_colors/font_color": [
+														1.0,
+														1.0,
+														0.0,
+														1.0
+													],
+													"theme_override_colors/font_outline_color": [
+														0.0,
+														0.0,
+														0.0,
+														1.0
+													],
+													"theme_override_colors/font_shadow_color": [
+														0.0,
+														0.0,
+														0.0,
+														0.0
+													],
+													"theme_override_constants/outline_size": 3,
+													"theme_override_constants/shadow_offset_x": 4,
+													"theme_override_font_sizes/font_size": 6,
+													"visible": false
+												},
+												"script": "",
+												"type": "Label"
+											},
+											{
+												"children": [],
+												"groups": [],
+												"name": "LevelNumber",
+												"properties": {
+													"layout_mode": 2,
+													"text": "1",
+													"theme_override_colors/font_color": [
+														1.0,
+														1.0,
+														0.0,
+														1.0
+													],
+													"theme_override_colors/font_outline_color": [
+														0.0,
+														0.0,
+														0.0,
+														1.0
+													],
+													"theme_override_constants/outline_size": 4,
+													"theme_override_font_sizes/font_size": 8,
+													"vertical_alignment": 1
+												},
+												"script": "",
+												"type": "Label"
+											}
+										],
+										"groups": [],
+										"name": "LevelContainer",
+										"properties": {
+											"layout_direction": 2,
+											"layout_mode": 0,
+											"position": [
+												6.0,
+												-3.0
+											],
+											"size": [
+												46.0,
+												23.0
+											]
+										},
+										"script": "",
+										"type": "HBoxContainer"
+									}
+								],
+								"groups": [],
+								"name": "ExperienceUI",
+								"properties": {
+									"player_stats": "res://player/player_stats.tres",
+									"position": [
+										6.0,
+										27.0
+									],
+									"script": "res://ui/experience_ui.gd"
+								},
+								"script": "res://ui/experience_ui.gd",
+								"type": "Control"
+							}
+						],
+						"groups": [],
+						"name": "UI",
+						"properties": {
+
+						},
+						"script": "",
+						"type": "CanvasLayer"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "AudioStreamPlayer",
+						"properties": {
+							"autoplay": true,
+							"bus": "Music",
+							"parameters/looping": true,
+							"stream": "res://music_and_sounds/music.mp3"
+						},
+						"script": "",
+						"type": "AudioStreamPlayer"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "PauseAudioStreamPlayer",
+								"properties": {
+									"bus": "Sounds",
+									"stream": "res://music_and_sounds/pause.wav"
+								},
+								"script": "",
+								"type": "AudioStreamPlayer"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "UnpauseAudioStreamPlayer",
+								"properties": {
+									"bus": "Sounds",
+									"stream": "res://music_and_sounds/unpause.wav"
+								},
+								"script": "",
+								"type": "AudioStreamPlayer"
+							}
+						],
+						"groups": [],
+						"name": "Pauser",
+						"properties": {
+							"metadata/_custom_type_script": "uid://hm75x32gi2rk",
+							"process_mode": 3,
+							"script": "res://pauser.gd"
+						},
+						"script": "res://pauser.gd",
+						"type": "Node"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Timer",
+								"properties": {
+
+								},
+								"script": "",
+								"type": "Timer"
+							}
+						],
+						"groups": [],
+						"name": "Spawner2",
+						"properties": {
+							"area_level": 5,
+							"enemy_scene": "res://enemies/purple_bat.tscn",
+							"max_enemies": 15,
+							"position": [
+								488.0,
+								56.0
+							],
+							"script": "res://world/spawner.gd",
+							"spawn_cooldown": 0.1,
+							"spawn_radius": 20.0
+						},
+						"script": "res://world/spawner.gd",
+						"type": "Node2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Timer",
+								"properties": {
+
+								},
+								"script": "",
+								"type": "Timer"
+							}
+						],
+						"groups": [],
+						"name": "Spawner3",
+						"properties": {
+							"area_level": 10,
+							"enemy_scene": "res://enemies/purple_bat.tscn",
+							"max_enemies": 15,
+							"position": [
+								520.0,
+								384.0
+							],
+							"script": "res://world/spawner.gd",
+							"spawn_cooldown": 0.1,
+							"spawn_radius": 10.0
+						},
+						"script": "res://world/spawner.gd",
+						"type": "Node2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Timer",
+								"properties": {
+
+								},
+								"script": "",
+								"type": "Timer"
+							}
+						],
+						"groups": [],
+						"name": "Spawner4",
+						"properties": {
+							"area_level": 15,
+							"enemy_scene": "res://enemies/purple_bat.tscn",
+							"max_enemies": 20,
+							"position": [
+								-72.0,
+								352.0
+							],
+							"script": "res://world/spawner.gd",
+							"spawn_cooldown": 0.1,
+							"spawn_radius": 20.0
+						},
+						"script": "res://world/spawner.gd",
+						"type": "Node2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "Timer",
+								"properties": {
+
+								},
+								"script": "",
+								"type": "Timer"
+							}
+						],
+						"groups": [],
+						"name": "Spawner",
+						"properties": {
+							"area_level": 1,
+							"enemy_scene": "res://enemies/purple_bat.tscn",
+							"max_enemies": 15,
+							"position": [
+								30.0,
+								103.0
+							],
+							"script": "res://world/spawner.gd",
+							"spawn_cooldown": 0.1,
+							"spawn_radius": 60.0
+						},
+						"script": "res://world/spawner.gd",
+						"type": "Node2D"
+					}
+				],
+				"groups": [],
+				"name": "World",
+				"properties": {
+					"y_sort_enabled": true
+				},
+				"script": "",
+				"type": "Node2D"
+			}
+		},
+		{
+			"path": "res:///world/tree.tscn",
+			"root_node": {
+				"children": [
+					{
+						"children": [],
+						"groups": [],
+						"name": "Sprite2D",
+						"properties": {
+							"position": [
+								0.0,
+								-17.0
+							],
+							"texture": "res://world/tree.png"
+						},
+						"script": "",
+						"type": "Sprite2D"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "CollisionShape2D",
+						"properties": {
+							"position": [
+								0.0,
+								-8.0
+							],
+							"shape": "res://world/tree.tscn::CircleShape2D_1q5bg"
+						},
+						"script": "",
+						"type": "CollisionShape2D"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "ShadowSprite2D2",
+						"properties": {
+							"show_behind_parent": true,
+							"texture": "res://shadows/large_shadow.png"
+						},
+						"script": "",
+						"type": "Sprite2D"
+					}
+				],
+				"groups": [
+					"navigation_polygon_source_geometry_group"
+				],
+				"name": "Tree",
+				"properties": {
+
+				},
+				"script": "",
+				"type": "StaticBody2D"
+			}
+		},
+		{
+			"path": "res:///world/bush.tscn",
+			"root_node": {
+				"children": [
+					{
+						"children": [],
+						"groups": [],
+						"name": "Sprite2D",
+						"properties": {
+							"position": [
+								0.0,
+								-7.0
+							],
+							"texture": "res://world/bush.png"
+						},
+						"script": "",
+						"type": "Sprite2D"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "CollisionShape2D",
+						"properties": {
+							"position": [
+								0.0,
+								-7.0
+							],
+							"shape": "res://world/bush.tscn::CircleShape2D_38vgs"
+						},
+						"script": "",
+						"type": "CollisionShape2D"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "ShadowSprite2D2",
+						"properties": {
+							"show_behind_parent": true,
+							"texture": "res://shadows/large_shadow.png"
+						},
+						"script": "",
+						"type": "Sprite2D"
+					}
+				],
+				"groups": [
+					"navigation_polygon_source_geometry_group"
+				],
+				"name": "Bush",
+				"properties": {
+
+				},
+				"script": "",
+				"type": "StaticBody2D"
+			}
+		},
+		{
+			"path": "res:///world/grass.tscn",
+			"root_node": {
+				"children": [
+					{
+						"children": [],
+						"groups": [],
+						"name": "Sprite2D",
+						"properties": {
+							"texture": "res://world/grass.png"
+						},
+						"script": "",
+						"type": "Sprite2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "CollisionShape2D",
+								"properties": {
+									"shape": "res://world/grass.tscn::RectangleShape2D_44d1o"
+								},
+								"script": "",
+								"type": "CollisionShape2D"
+							}
+						],
+						"groups": [],
+						"name": "Hurtbox",
+						"properties": {
+							"collision_layer": 16,
+							"collision_mask": 16,
+							"metadata/_custom_type_script": "uid://bd2edxcfsqqt1",
+							"script": "res://damage_boxes/hurtbox.gd"
+						},
+						"script": "res://damage_boxes/hurtbox.gd",
+						"type": "Area2D"
+					}
+				],
+				"groups": [],
+				"name": "Grass",
+				"properties": {
+					"GRASS_EFFECT": "res://effects/grass_effect.tscn",
+					"script": "res://world/grass.gd"
+				},
+				"script": "res://world/grass.gd",
+				"type": "Node2D"
+			}
+		},
+		{
+			"path": "res:///world/Spawner.tscn",
+			"root_node": {
+				"children": [
+					{
+						"children": [],
+						"groups": [],
+						"name": "Timer",
+						"properties": {
+
+						},
+						"script": "",
+						"type": "Timer"
+					}
+				],
+				"groups": [],
+				"name": "Spawner",
+				"properties": {
+					"area_level": 1,
+					"max_enemies": 5,
+					"script": "res://world/spawner.gd",
+					"spawn_cooldown": 5.0,
+					"spawn_radius": 60.0
+				},
+				"script": "res://world/spawner.gd",
+				"type": "Node2D"
+			}
+		},
+		{
+			"path": "res:///player/player.tscn",
+			"root_node": {
+				"children": [
+					{
+						"children": [],
+						"groups": [],
+						"name": "Sprite2D",
+						"properties": {
+							"hframes": 60,
+							"position": [
+								0.0,
+								-8.0
+							],
+							"texture": "res://player/player.png"
+						},
+						"script": "",
+						"type": "Sprite2D"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "AnimationPlayer",
+						"properties": {
+							"libraries": {
+								"": "<AnimationLibrary#-9223369636622284512>"
+							}
+						},
+						"script": "",
+						"type": "AnimationPlayer"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "AnimationTree",
+						"properties": {
+							"advance_expression_base_node": "..",
+							"anim_player": "../AnimationPlayer",
+							"callback_mode_discrete": 1,
+							"parameters/StateMachine/AttackState/blend_position": [
+								-0.00173550995532423,
+								-0.655324995517731
+							],
+							"parameters/StateMachine/MoveState/RunState/blend_position": [
+								0.0,
+								-0.852348983287811
+							],
+							"parameters/StateMachine/MoveState/StandState/blend_position": [
+								-0.00550258019939065,
+								-0.466033011674881
+							],
+							"parameters/StateMachine/MoveState/playback": "<AnimationNodeStateMachinePlayback#-9223366427795158627>",
+							"parameters/StateMachine/RollState/blend_position": [
+								0.00078403897350654,
+								-0.487875998020172
+							],
+							"parameters/StateMachine/playback": "<AnimationNodeStateMachinePlayback#-9223366427828713058>",
+							"parameters/TimeScale/scale": 1.0,
+							"tree_root": "res://player/player.tscn::AnimationNodeBlendTree_g1dw6"
+						},
+						"script": "",
+						"type": "AnimationTree"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "Camera2D",
+						"properties": {
+							"position": [
+								0.0,
+								-8.0
+							],
+							"position_smoothing_enabled": true,
+							"process_callback": 0
+						},
+						"script": "",
+						"type": "Camera2D"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "CollisionPolygon2D",
+						"properties": {
+							"polygon": "[(0.0, 13.0), (-5.0, 6.0), (0.0, 0.0), (5.0, 6.0)]",
+							"position": [
+								0.0,
+								-8.0
+							]
+						},
+						"script": "",
+						"type": "CollisionPolygon2D"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "ShadowSprite2D",
+						"properties": {
+							"position": [
+								0.0,
+								3.0
+							],
+							"show_behind_parent": true,
+							"texture": "res://shadows/medium_shadow.png"
+						},
+						"script": "",
+						"type": "Sprite2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "CollisionPolygon2D",
+								"properties": {
+
+								},
+								"script": "",
+								"type": "CollisionPolygon2D"
+							}
+						],
+						"groups": [],
+						"name": "Hitbox",
+						"properties": {
+							"collision_layer": 16,
+							"collision_mask": 16,
+							"damage": 1,
+							"knockback_amount": 200,
+							"knockback_direction": [
+								0.0,
+								1.0
+							],
+							"metadata/_custom_type_script": "uid://pohlsv6qsc43",
+							"script": "res://damage_boxes/hitbox.gd",
+							"stores_hit_targets": true
+						},
+						"script": "res://damage_boxes/hitbox.gd",
+						"type": "Area2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "CollisionShape2D",
+								"properties": {
+									"position": [
+										-0.5,
+										-2.0
+									],
+									"shape": "res://player/player.tscn::RectangleShape2D_boad6"
+								},
+								"script": "",
+								"type": "CollisionShape2D"
+							}
+						],
+						"groups": [],
+						"name": "Hurtbox",
+						"properties": {
+							"collision_layer": 8,
+							"collision_mask": 8,
+							"metadata/_custom_type_script": "uid://bd2edxcfsqqt1",
+							"script": "res://damage_boxes/hurtbox.gd"
+						},
+						"script": "res://damage_boxes/hurtbox.gd",
+						"type": "Area2D"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "BlinkAnimationPlayer",
+						"properties": {
+							"libraries": {
+								"": "<AnimationLibrary#-9223369635900864181>"
+							}
+						},
+						"script": "",
+						"type": "AnimationPlayer"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "AudioStreamPlayer",
+						"properties": {
+							"bus": "Sounds"
+						},
+						"script": "",
+						"type": "AudioStreamPlayer"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "HurtAudioStreamPlayer",
+						"properties": {
+							"bus": "Sounds",
+							"stream": "res://music_and_sounds/hurt.wav"
+						},
+						"script": "",
+						"type": "AudioStreamPlayer"
+					}
+				],
+				"groups": [
+					"player"
+				],
+				"name": "Player",
+				"properties": {
+					"collision_layer": 2,
+					"motion_mode": 1,
+					"script": "res://player/player.gd",
+					"stats": "res://player/player_stats.tres"
+				},
+				"script": "res://player/player.gd",
+				"type": "CharacterBody2D"
+			}
+		},
+		{
+			"path": "res:///enemies/enemy.tscn",
+			"root_node": {
+				"children": [
+					{
+						"children": [],
+						"groups": [],
+						"name": "CollisionShape2D",
+						"properties": {
+
+						},
+						"script": "",
+						"type": "CollisionShape2D"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "Hitbox",
+						"properties": {
+
+						},
+						"script": "",
+						"type": "Area2D"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "Hurtbox",
+						"properties": {
+
+						},
+						"script": "",
+						"type": "Area2D"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "RayCast2D",
+						"properties": {
+
+						},
+						"script": "",
+						"type": "RayCast2D"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "Center",
+						"properties": {
+
+						},
+						"script": "",
+						"type": "Marker2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "ProgressBar",
+								"properties": {
+									"show_percentage": false,
+									"size": [
+										74.2600021362305,
+										27.0
+									]
+								},
+								"script": "",
+								"type": "ProgressBar"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "LevelLabel",
+								"properties": {
+									"position": [
+										36.0,
+										-10.0
+									],
+									"size": [
+										12.5200042724609,
+										23.0
+									],
+									"text": "1",
+									"theme_override_colors/font_color": [
+										1.0,
+										1.0,
+										0.0,
+										1.0
+									],
+									"theme_override_colors/font_outline_color": [
+										0.0,
+										0.0,
+										0.0,
+										1.0
+									],
+									"theme_override_constants/outline_size": 2,
+									"theme_override_font_sizes/font_size": 6
+								},
+								"script": "",
+								"type": "Label"
+							}
+						],
+						"groups": [],
+						"name": "HealthBarAnchor",
+						"properties": {
+
+						},
+						"script": "",
+						"type": "Node2D"
+					}
+				],
+				"groups": [],
+				"name": "Enemy",
+				"properties": {
+					"enemy_level": 1,
+					"experience_ratio": 1.0,
+					"hp_ratio": 1.0,
+					"script": "res://enemies/enemy.gd",
+					"vision_ratio": 1.0
+				},
+				"script": "res://enemies/enemy.gd",
+				"type": "CharacterBody2D"
+			}
+		},
+		{
+			"path": "res:///enemies/purple_bat.tscn",
+			"root_node": {
+				"children": [
+					{
+						"children": [],
+						"groups": [],
+						"name": "Sprite2D",
+						"properties": {
+							"hframes": 5,
+							"offset": [
+								-1.0,
+								-4.0
+							],
+							"texture": "res://enemies/bat.png"
+						},
+						"script": "",
+						"type": "Sprite2D"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "ShadowSprite2D",
+						"properties": {
+							"show_behind_parent": true,
+							"texture": "res://shadows/small_shadow.png"
+						},
+						"script": "",
+						"type": "Sprite2D"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "CollisionShape2D",
+						"properties": {
+							"position": [
+								0.0,
+								-3.0
+							],
+							"shape": "res://enemies/purple_bat.tscn::CircleShape2D_e7gs6"
+						},
+						"script": "",
+						"type": "CollisionShape2D"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "AnimationPlayer",
+						"properties": {
+
+						},
+						"script": "",
+						"type": "AnimationPlayer"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "AnimationTree",
+						"properties": {
+							"advance_expression_base_node": "..",
+							"anim_player": "../AnimationPlayer",
+							"parameters/StateMachine/playback": "<AnimationNodeStateMachinePlayback#-9223366426218100243>",
+							"tree_root": "res://enemies/purple_bat.tscn::AnimationNodeBlendTree_f4281"
+						},
+						"script": "",
+						"type": "AnimationTree"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "RayCast2D",
+						"properties": {
+							"target_position": [
+								8.0,
+								0.0
+							]
+						},
+						"script": "",
+						"type": "RayCast2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "CollisionShape2D",
+								"properties": {
+									"position": [
+										0.0,
+										-6.0
+									],
+									"shape": "res://enemies/purple_bat.tscn::CircleShape2D_5gx0a"
+								},
+								"script": "",
+								"type": "CollisionShape2D"
+							}
+						],
+						"groups": [],
+						"name": "Hurtbox",
+						"properties": {
+							"collision_layer": 16,
+							"collision_mask": 16,
+							"metadata/_custom_type_script": "uid://bd2edxcfsqqt1",
+							"script": "res://damage_boxes/hurtbox.gd"
+						},
+						"script": "res://damage_boxes/hurtbox.gd",
+						"type": "Area2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "CollisionShape2D",
+								"properties": {
+									"debug_color": [
+										0.885160982608795,
+										0.275334000587463,
+										0.481880009174347,
+										0.419999986886978
+									],
+									"position": [
+										0.0,
+										-6.0
+									],
+									"shape": "res://enemies/purple_bat.tscn::CircleShape2D_ww8v4"
+								},
+								"script": "",
+								"type": "CollisionShape2D"
+							}
+						],
+						"groups": [],
+						"name": "Hitbox",
+						"properties": {
+							"collision_layer": 8,
+							"collision_mask": 8,
+							"damage": 1,
+							"knockback_amount": 200,
+							"knockback_direction": [
+								0.0,
+								0.0
+							],
+							"metadata/_custom_type_script": "uid://pohlsv6qsc43",
+							"script": "res://damage_boxes/hitbox.gd",
+							"stores_hit_targets": false
+						},
+						"script": "res://damage_boxes/hitbox.gd",
+						"type": "Area2D"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "Center",
+						"properties": {
+							"position": [
+								0.0,
+								-7.0
+							]
+						},
+						"script": "",
+						"type": "Marker2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "NavigationAgent2D",
+								"properties": {
+									"path_desired_distance": 4.0,
+									"target_desired_distance": 4.0
+								},
+								"script": "",
+								"type": "NavigationAgent2D"
+							}
+						],
+						"groups": [],
+						"name": "Marker2D",
+						"properties": {
+							"position": [
+								0.0,
+								-3.0
+							]
+						},
+						"script": "",
+						"type": "Marker2D"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "ProgressBar",
+								"properties": {
+									"fill_mode": 3,
+									"position": [
+										-5.0,
+										-7.0
+									],
+									"show_percentage": false,
+									"size": [
+										4.0,
+										27.0
+									],
+									"visible": false
+								},
+								"script": "",
+								"type": "ProgressBar"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "LevelLabel",
+								"properties": {
+									"position": [
+										-3.0,
+										-8.0
+									],
+									"size": [
+										12.5200042724609,
+										23.0
+									],
+									"text": "1",
+									"theme_override_colors/font_color": [
+										1.0,
+										1.0,
+										0.0,
+										0.278431385755539
+									],
+									"theme_override_colors/font_outline_color": [
+										0.0,
+										0.0,
+										0.0,
+										0.211764708161354
+									],
+									"theme_override_constants/outline_size": 2,
+									"theme_override_font_sizes/font_size": 6
+								},
+								"script": "",
+								"type": "Label"
+							}
+						],
+						"groups": [],
+						"name": "HealthBarAnchor",
+						"properties": {
+							"position": [
+								0.0,
+								-19.0
+							]
+						},
+						"script": "",
+						"type": "Node2D"
+					}
+				],
+				"groups": [],
+				"name": "PurpleBat",
+				"properties": {
+					"collision_layer": 4,
+					"collision_mask": 5,
+					"enemy_level": 1,
+					"experience_ratio": 1.0,
+					"hp_ratio": 1.0,
+					"max_range": 128,
+					"min_range": 4,
+					"motion_mode": 1,
+					"script": "res://enemies/purple_bat.gd",
+					"stats": "res://enemies/purple_bat.tscn::Resource_ww8v4",
+					"vision_ratio": 1.0
+				},
+				"script": "res://enemies/purple_bat.gd",
+				"type": "CharacterBody2D"
+			}
+		},
+		{
+			"path": "res:///enemies/health_bar_anchor.tscn",
+			"root_node": {
+				"children": [
+					{
+						"children": [],
+						"groups": [],
+						"name": "ProgressBar",
+						"properties": {
+							"fill_mode": 3,
+							"position": [
+								-5.0,
+								-7.0
+							],
+							"show_percentage": false,
+							"size": [
+								4.0,
+								27.0
+							],
+							"visible": false
+						},
+						"script": "",
+						"type": "ProgressBar"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "LevelLabel",
+						"properties": {
+							"position": [
+								-3.0,
+								-8.0
+							],
+							"size": [
+								12.5200042724609,
+								23.0
+							],
+							"text": "1",
+							"theme_override_colors/font_color": [
+								1.0,
+								1.0,
+								0.0,
+								0.278431385755539
+							],
+							"theme_override_colors/font_outline_color": [
+								0.0,
+								0.0,
+								0.0,
+								0.211764708161354
+							],
+							"theme_override_constants/outline_size": 2,
+							"theme_override_font_sizes/font_size": 6
+						},
+						"script": "",
+						"type": "Label"
+					}
+				],
+				"groups": [],
+				"name": "HealthBarAnchor",
+				"properties": {
+
+				},
+				"script": "",
+				"type": "Node2D"
+			}
+		},
+		{
+			"path": "res:///effects/grass_effect.tscn",
+			"root_node": {
+				"children": [],
+				"groups": [],
+				"name": "GrassEffect",
+				"properties": {
+					"frame": 4,
+					"sprite_frames": "res://effects/grass_effect.tscn::SpriteFrames_611t2"
+				},
+				"script": "",
+				"type": "AnimatedSprite2D"
+			}
+		},
+		{
+			"path": "res:///effects/death_effect.tscn",
+			"root_node": {
+				"children": [
+					{
+						"children": [],
+						"groups": [],
+						"name": "AudioStreamPlayer",
+						"properties": {
+							"autoplay": true,
+							"bus": "Sounds",
+							"stream": "res://music_and_sounds/enemy_die.wav"
+						},
+						"script": "",
+						"type": "AudioStreamPlayer"
+					}
+				],
+				"groups": [],
+				"name": "DeathEffect",
+				"properties": {
+					"frame": 9,
+					"sprite_frames": "res://effects/death_effect.tscn::SpriteFrames_yuhku"
+				},
+				"script": "",
+				"type": "AnimatedSprite2D"
+			}
+		},
+		{
+			"path": "res:///effects/hit_effect.tscn",
+			"root_node": {
+				"children": [
+					{
+						"children": [],
+						"groups": [],
+						"name": "AudioStreamPlayer",
+						"properties": {
+							"autoplay": true,
+							"bus": "Sounds",
+							"stream": "res://music_and_sounds/hit.wav"
+						},
+						"script": "",
+						"type": "AudioStreamPlayer"
+					}
+				],
+				"groups": [],
+				"name": "HitEffect",
+				"properties": {
+					"sprite_frames": "res://effects/hit_effect.tscn::SpriteFrames_4lxv7",
+					"z_index": 10
+				},
+				"script": "",
+				"type": "AnimatedSprite2D"
+			}
+		},
+		{
+			"path": "res:///ui/damage_number.tscn",
+			"root_node": {
+				"children": [],
+				"groups": [],
+				"name": "DamageNumber",
+				"properties": {
+					"pivot_offset": [
+						2.29500007629395,
+						6.19999980926514
+					],
+					"script": "res://ui/damage_number.gd",
+					"size": [
+						5.0,
+						23.0
+					],
+					"text": "0",
+					"theme_override_font_sizes/font_size": 8,
+					"z_index": 3
+				},
+				"script": "res://ui/damage_number.gd",
+				"type": "Label"
+			}
+		},
+		{
+			"path": "res:///ui/experience_ui.tscn",
+			"root_node": {
+				"children": [
+					{
+						"children": [],
+						"groups": [],
+						"name": "ProgressBar",
+						"properties": {
+							"fill_mode": 3,
+							"layout_mode": 0,
+							"show_percentage": false,
+							"size": [
+								5.00500011444092,
+								80.7949981689453
+							],
+							"theme_override_colors/font_color": [
+								0.949019610881805,
+								0.949019610881805,
+								0.0,
+								1.0
+							],
+							"theme_override_colors/font_outline_color": [
+								0.0,
+								0.0,
+								0.0,
+								1.0
+							],
+							"theme_override_font_sizes/font_size": 8
+						},
+						"script": "",
+						"type": "ProgressBar"
+					},
+					{
+						"children": [
+							{
+								"children": [],
+								"groups": [],
+								"name": "LabelLevelText",
+								"properties": {
+									"layout_mode": 2,
+									"text": "LVL:",
+									"theme_override_colors/font_color": [
+										1.0,
+										1.0,
+										0.0,
+										1.0
+									],
+									"theme_override_colors/font_outline_color": [
+										0.0,
+										0.0,
+										0.0,
+										1.0
+									],
+									"theme_override_colors/font_shadow_color": [
+										0.0,
+										0.0,
+										0.0,
+										0.0
+									],
+									"theme_override_constants/outline_size": 3,
+									"theme_override_constants/shadow_offset_x": 4,
+									"theme_override_font_sizes/font_size": 6,
+									"visible": false
+								},
+								"script": "",
+								"type": "Label"
+							},
+							{
+								"children": [],
+								"groups": [],
+								"name": "LevelNumber",
+								"properties": {
+									"layout_mode": 2,
+									"text": "1",
+									"theme_override_colors/font_color": [
+										1.0,
+										1.0,
+										0.0,
+										1.0
+									],
+									"theme_override_colors/font_outline_color": [
+										0.0,
+										0.0,
+										0.0,
+										1.0
+									],
+									"theme_override_constants/outline_size": 4,
+									"theme_override_font_sizes/font_size": 8,
+									"vertical_alignment": 1
+								},
+								"script": "",
+								"type": "Label"
+							}
+						],
+						"groups": [],
+						"name": "LevelContainer",
+						"properties": {
+							"layout_direction": 2,
+							"layout_mode": 0,
+							"position": [
+								6.0,
+								-3.0
+							],
+							"size": [
+								46.0,
+								23.0
+							]
+						},
+						"script": "",
+						"type": "HBoxContainer"
+					}
+				],
+				"groups": [],
+				"name": "ExperienceUI",
+				"properties": {
+
+				},
+				"script": "",
+				"type": "Control"
+			}
+		},
+		{
+			"path": "res:///ui/hearts_ui.tscn",
+			"root_node": {
+				"children": [
+					{
+						"children": [],
+						"groups": [],
+						"name": "EmptyHearts",
+						"properties": {
+							"layout_mode": 0,
+							"size": [
+								60.0,
+								11.0
+							],
+							"stretch_mode": 1,
+							"texture": "res://ui/heart_ui_empty.png"
+						},
+						"script": "",
+						"type": "TextureRect"
+					},
+					{
+						"children": [],
+						"groups": [],
+						"name": "FullHearts",
+						"properties": {
+							"expand_mode": 1,
+							"layout_mode": 0,
+							"size": [
+								29.0,
+								11.0
+							],
+							"stretch_mode": 1,
+							"texture": "res://ui/heart_ui_full.png"
+						},
+						"script": "",
+						"type": "TextureRect"
+					}
+				],
+				"groups": [],
+				"name": "HeartsUI",
+				"properties": {
+					"player_stats": "res://player/player_stats.tres",
+					"script": "res://ui/hearts_ui.gd",
+					"size": [
+						16.0,
+						16.0
+					]
+				},
+				"script": "res://ui/hearts_ui.gd",
+				"type": "Control"
+			}
+		}
+	],
+	"scripts": [
+		{
+			"content": "@tool\nextends EditorPlugin\n\nconst AIContextGenerator = preload(\"res://addons/ai_context_generator/ai_context_generator.gd\")\n\nfunc _enter_tree():\n\t# Add a simple menu item to the Project menu\n\tadd_tool_menu_item(\"Generate AI Context\", _on_generate_context)\n\nfunc _exit_tree():\n\t# Clean up\n\tremove_tool_menu_item(\"Generate AI Context\")\n\nfunc _on_generate_context():\n\tvar generator = AIContextGenerator.new()\n\tgenerator.export_project_structure()\n",
+			"exports": [],
+			"functions": [
+				"func _enter_tree():",
+				"func _exit_tree():",
+				"func _on_generate_context():"
+			],
+			"language": "gd",
+			"path": "res:///addons/ai_context_generator/plugin.gd",
+			"signals": []
+		},
+		{
+			"content": "@tool\nextends RefCounted\n\nfunc export_project_structure() -> bool:\n\tvar output = {\n\t\t\"project_name\": ProjectSettings.get_setting(\"application/config/name\", \"Unknown\"),\n\t\t\"generated_timestamp\": Time.get_datetime_string_from_system(),\n\t\t\"scenes\": [],\n\t\t\"scripts\": [],\n\t\t\"autoloads\": {},\n\t\t\"project_settings\": get_relevant_project_settings()\n\t}\n\t\n\t# Get all scene files\n\tvar scene_files = find_files_recursive(\"res://\", \"tscn\")\n\tvar total_files = scene_files.size()\n\t\n\tprint(\"AI Context Generator: Found %d scenes to process...\" % total_files)\n\t\n\t# Process each scene\n\tfor i in range(scene_files.size()):\n\t\tvar scene_path = scene_files[i]\n\t\t\n\t\tprint(\"AI Context Generator: Processing scene %d/%d: %s\" % [i+1, total_files, scene_path.get_file()])\n\t\t\n\t\tvar scene_data = parse_scene_structure(scene_path)\n\t\tif scene_data:\n\t\t\toutput.scenes.append(scene_data)\n\t\n\t# Get all script files\n\tvar script_files = find_files_recursive(\"res://\", \"gd\")\n\tscript_files.append_array(find_files_recursive(\"res://\", \"cs\"))\n\t\n\tprint(\"AI Context Generator: Processing %d scripts...\" % script_files.size())\n\t\n\t# Process each script\n\tfor i in range(script_files.size()):\n\t\tvar script_path = script_files[i]\n\t\t\n\t\tvar script_data = extract_script_info(script_path)\n\t\tif script_data:\n\t\t\toutput.scripts.append(script_data)\n\t\n\t# Get autoloads\n\toutput.autoloads = get_autoloads()\n\t\n\t# Save to file\n\tvar json_string = JSON.stringify(output, \"\\t\")\n\tvar file = FileAccess.open(\"res://ai_context_export.json\", FileAccess.WRITE)\n\t\n\tif file:\n\t\tfile.store_string(json_string)\n\t\tfile.close()\n\t\t\n\t\t# Copy to clipboard\n\t\tDisplayServer.clipboard_set(json_string)\n\t\t\n\t\tprint(\"AI Context Generator: Successfully generated ai_context_export.json\")\n\t\tprint(\"AI Context Generator: JSON data copied to clipboard!\")\n\t\treturn true\n\telse:\n\t\tprint(\"AI Context Generator: Failed to write export file\")\n\t\treturn false\n\nfunc find_files_recursive(path: String, extension: String) -> Array[String]:\n\tvar files: Array[String] = []\n\tvar dir = DirAccess.open(path)\n\t\n\tif dir:\n\t\tdir.list_dir_begin()\n\t\tvar file_name = dir.get_next()\n\t\t\n\t\twhile file_name != \"\":\n\t\t\tvar full_path = path + \"/\" + file_name\n\t\t\t\n\t\t\tif dir.current_is_dir() and not file_name.begins_with(\".\"):\n\t\t\t\tfiles.append_array(find_files_recursive(full_path, extension))\n\t\t\telif file_name.get_extension() == extension:\n\t\t\t\tfiles.append(full_path)\n\t\t\t\n\t\t\tfile_name = dir.get_next()\n\t\t\n\t\tdir.list_dir_end()\n\t\n\treturn files\n\nfunc parse_scene_structure(scene_path: String) -> Dictionary:\n\tvar scene = load(scene_path) as PackedScene\n\tif not scene:\n\t\treturn {}\n\t\n\tvar instance = scene.instantiate()\n\tif not instance:\n\t\treturn {}\n\t\n\tvar scene_data = {\n\t\t\"path\": scene_path,\n\t\t\"root_node\": parse_node_recursive(instance)\n\t}\n\t\n\tinstance.queue_free()\n\treturn scene_data\n\nfunc parse_node_recursive(node: Node) -> Dictionary:\n\tvar node_data = {\n\t\t\"name\": node.name,\n\t\t\"type\": node.get_class(),\n\t\t\"script\": \"\",\n\t\t\"properties\": {},\n\t\t\"groups\": [],\n\t\t\"children\": []\n\t}\n\t\n\t# Get script path if attached\n\tif node.get_script():\n\t\tnode_data.script = node.get_script().resource_path\n\t\n\t# Get non-default properties\n\tnode_data.properties = get_non_default_properties(node)\n\t\n\t# Get groups\n\tfor group in node.get_groups():\n\t\tnode_data.groups.append(group)\n\t\n\t# Process children\n\tfor child in node.get_children():\n\t\tnode_data.children.append(parse_node_recursive(child))\n\t\n\treturn node_data\n\nfunc get_non_default_properties(node: Node) -> Dictionary:\n\tvar properties = {}\n\t\n\t# Create a default instance of the same type for comparison\n\tvar default_node = null\n\tvar node_class = node.get_class()\n\t\n\t# Try to create default instance\n\tif ClassDB.can_instantiate(node_class):\n\t\tdefault_node = ClassDB.instantiate(node_class)\n\t\n\tif not default_node:\n\t\treturn properties\n\t\n\t# Get all properties\n\tvar property_list = node.get_property_list()\n\t\n\tfor prop in property_list:\n\t\t# Only include editor-visible properties that aren't built-in engine properties\n\t\tif (prop.usage & PROPERTY_USAGE_EDITOR) and not prop.name.begins_with(\"_\"):\n\t\t\tvar current_value = node.get(prop.name)\n\t\t\tvar default_value = default_node.get(prop.name)\n\t\t\t\n\t\t\t# Compare values (handle different types appropriately)\n\t\t\tif not values_equal(current_value, default_value):\n\t\t\t\tproperties[prop.name] = serialize_value(current_value)\n\t\n\tdefault_node.queue_free()\n\treturn properties\n\nfunc values_equal(a, b) -> bool:\n\t# Handle Vector2, Vector3, Color, etc.\n\tif typeof(a) != typeof(b):\n\t\treturn false\n\t\n\tif a is Vector2 or a is Vector3 or a is Vector4:\n\t\treturn a.is_equal_approx(b)\n\telif a is Color:\n\t\treturn a.is_equal_approx(b)\n\telse:\n\t\treturn a == b\n\nfunc serialize_value(value):\n\t# Convert complex types to serializable formats\n\tif value is Vector2:\n\t\treturn [value.x, value.y]\n\telif value is Vector3:\n\t\treturn [value.x, value.y, value.z]\n\telif value is Vector4:\n\t\treturn [value.x, value.y, value.z, value.w]\n\telif value is Color:\n\t\treturn [value.r, value.g, value.b, value.a]\n\telif value is Resource and value.resource_path != \"\":\n\t\treturn value.resource_path\n\telse:\n\t\treturn value\n\nfunc extract_script_info(script_path: String) -> Dictionary:\n\tvar file = FileAccess.open(script_path, FileAccess.READ)\n\tif not file:\n\t\treturn {}\n\t\n\tvar content = file.get_as_text()\n\tfile.close()\n\t\n\tvar script_data = {\n\t\t\"path\": script_path,\n\t\t\"language\": script_path.get_extension(),\n\t\t\"content\": content,\n\t\t\"exports\": extract_exported_variables(content),\n\t\t\"signals\": extract_signals(content),\n\t\t\"functions\": extract_functions(content)\n\t}\n\t\n\treturn script_data\n\nfunc extract_exported_variables(content: String) -> Array:\n\tvar exports = []\n\tvar lines = content.split(\"\\n\")\n\t\n\tfor line in lines:\n\t\tline = line.strip_edges()\n\t\tif line.begins_with(\"@export\"):\n\t\t\texports.append(line)\n\t\n\treturn exports\n\nfunc extract_signals(content: String) -> Array:\n\tvar signals = []\n\tvar lines = content.split(\"\\n\")\n\t\n\tfor line in lines:\n\t\tline = line.strip_edges()\n\t\tif line.begins_with(\"signal \"):\n\t\t\tsignals.append(line)\n\t\n\treturn signals\n\nfunc extract_functions(content: String) -> Array:\n\tvar functions = []\n\tvar lines = content.split(\"\\n\")\n\t\n\tfor line in lines:\n\t\tline = line.strip_edges()\n\t\tif line.begins_with(\"func \"):\n\t\t\tfunctions.append(line)\n\t\n\treturn functions\n\nfunc get_autoloads() -> Dictionary:\n\tvar autoloads = {}\n\t\n\t# Get autoload settings from project settings\n\tvar settings = ProjectSettings.get_property_list()\n\t\n\tfor setting in settings:\n\t\tif setting.name.begins_with(\"autoload/\"):\n\t\t\tvar autoload_name = setting.name.substr(9)  # Remove \"autoload/\" prefix\n\t\t\tvar autoload_path = ProjectSettings.get_setting(setting.name)\n\t\t\tautoloads[autoload_name] = autoload_path\n\t\n\treturn autoloads\n\nfunc get_relevant_project_settings() -> Dictionary:\n\tvar settings = {\n\t\t\"application\": {},\n\t\t\"display\": {},\n\t\t\"input\": {},\n\t\t\"physics\": {},\n\t\t\"rendering\": {}\n\t}\n\t\n\t# Application settings\n\tsettings.application[\"name\"] = ProjectSettings.get_setting(\"application/config/name\", \"\")\n\tsettings.application[\"description\"] = ProjectSettings.get_setting(\"application/config/description\", \"\")\n\tsettings.application[\"main_scene\"] = ProjectSettings.get_setting(\"application/run/main_scene\", \"\")\n\t\n\t# Display settings\n\tsettings.display[\"width\"] = ProjectSettings.get_setting(\"display/window/size/viewport_width\", 0)\n\tsettings.display[\"height\"] = ProjectSettings.get_setting(\"display/window/size/viewport_height\", 0)\n\t\n\t# Input map\n\tvar input_map = {}\n\tfor action in InputMap.get_actions():\n\t\tinput_map[action] = []\n\t\tfor event in InputMap.action_get_events(action):\n\t\t\tinput_map[action].append(str(event))\n\tsettings.input[\"map\"] = input_map\n\t\n\treturn settings\n",
+			"exports": [],
+			"functions": [
+				"func export_project_structure() -> bool:",
+				"func find_files_recursive(path: String, extension: String) -> Array[String]:",
+				"func parse_scene_structure(scene_path: String) -> Dictionary:",
+				"func parse_node_recursive(node: Node) -> Dictionary:",
+				"func get_non_default_properties(node: Node) -> Dictionary:",
+				"func values_equal(a, b) -> bool:",
+				"func serialize_value(value):",
+				"func extract_script_info(script_path: String) -> Dictionary:",
+				"func extract_exported_variables(content: String) -> Array:",
+				"func extract_signals(content: String) -> Array:",
+				"func extract_functions(content: String) -> Array:",
+				"func get_autoloads() -> Dictionary:",
+				"func get_relevant_project_settings() -> Dictionary:"
+			],
+			"language": "gd",
+			"path": "res:///addons/ai_context_generator/ai_context_generator.gd",
+			"signals": []
+		},
+		{
+			"content": "extends Node\n\n@onready var pause_audio_stream_player: AudioStreamPlayer = $PauseAudioStreamPlayer\n@onready var unpause_audio_stream_player: AudioStreamPlayer = $UnpauseAudioStreamPlayer\n\nfunc _process(delta: float) -> void:\n\tif Input.is_action_just_pressed(\"ui_cancel\"):\n\t\tvar is_paused = get_tree().paused\n\t\tif is_paused: unpause_audio_stream_player.play()\n\t\telse: pause_audio_stream_player.play()\n\t\tget_tree().paused = not is_paused\n",
+			"exports": [],
+			"functions": [
+				"func _process(delta: float) -> void:"
+			],
+			"language": "gd",
+			"path": "res:///pauser.gd",
+			"signals": []
+		},
+		{
+			"content": "extends Node2D\n\n@export var GRASS_EFFECT: PackedScene\n\n@onready var hurtbox: Hurtbox = $Hurtbox\n\nfunc _ready() -> void:\n\thurtbox.hurt.connect(_on_hurt)\n\nfunc _on_hurt(other_hitbox: Hitbox) -> void:\n\tvar grass_effect_instance = GRASS_EFFECT.instantiate()\n\tget_tree().current_scene.add_child(grass_effect_instance)\n\tgrass_effect_instance.global_position = global_position\n\t# Avisa que a grama foi cortada\n\tGameEvents.grass_cut.emit(15)\n\tqueue_free()\n",
+			"exports": [
+				"@export var GRASS_EFFECT: PackedScene"
+			],
+			"functions": [
+				"func _ready() -> void:",
+				"func _on_hurt(other_hitbox: Hitbox) -> void:"
+			],
+			"language": "gd",
+			"path": "res:///world/grass.gd",
+			"signals": []
+		},
+		{
+			"content": "extends Node2D\n\n@export_group(\"Configurações de Spawn\")\n@export var enemy_scene: PackedScene      # Qual inimigo spawnar (Arraste o .tscn do Morcego aqui)\n@export var max_enemies: int = 5          # Limite de monstros ativos para este spawner\n@export var spawn_cooldown: float = 5.0   # Tempo em segundos entre cada nascimento\n@export var spawn_radius: float = 60.0    # Raio de dispersão (para não nascerem um em cima do outro)\n\n@export_group(\"Configurações da Área\")\n@export var area_level: int = 1           # Nível que os monstros desta área terão\n\n@onready var timer: Timer = $Timer\n\nvar current_enemy_count: int = 0\n\nfunc _ready() -> void:\n\t# Configura o cronômetro com o tempo definido\n\ttimer.wait_time = spawn_cooldown\n\ttimer.timeout.connect(_on_timer_timeout)\n\ttimer.start()\n\nfunc _on_timer_timeout() -> void:\n\tif current_enemy_count < max_enemies:\n\t\tspawn_enemy()\n\nfunc spawn_enemy() -> void:\n\tif not enemy_scene: return\n\t\n\tvar enemy = enemy_scene.instantiate() as Enemy\n\tif enemy:\n\t\t# Define o nível do monstro baseado na configuração do Spawner\n\t\tenemy.enemy_level = area_level\n\t\t\n\t\t# Calcula uma posição aleatória dentro do raio para dispersão\n\t\tvar random_offset = Vector2(randf_range(-1, 1), randf_range(-1, 1)).normalized() * randf_range(0, spawn_radius)\n\t\tenemy.global_position = global_position + random_offset\n\t\t\n\t\t# Conecta o sinal de saída da árvore para saber quando o monstro morreu/sumiu\n\t\tenemy.tree_exited.connect(_on_enemy_removed)\n\t\t\n\t\t# Adiciona o inimigo à cena principal (não ao spawner, para ele se mover livremente)\n\t\tget_parent().add_child.call_deferred(enemy)\n\t\tcurrent_enemy_count += 1\n\nfunc _on_enemy_removed() -> void:\n\tcurrent_enemy_count -= 1\n",
+			"exports": [
+				"@export_group(\"Configurações de Spawn\")",
+				"@export var enemy_scene: PackedScene      # Qual inimigo spawnar (Arraste o .tscn do Morcego aqui)",
+				"@export var max_enemies: int = 5          # Limite de monstros ativos para este spawner",
+				"@export var spawn_cooldown: float = 5.0   # Tempo em segundos entre cada nascimento",
+				"@export var spawn_radius: float = 60.0    # Raio de dispersão (para não nascerem um em cima do outro)",
+				"@export_group(\"Configurações da Área\")",
+				"@export var area_level: int = 1           # Nível que os monstros desta área terão"
+			],
+			"functions": [
+				"func _ready() -> void:",
+				"func _on_timer_timeout() -> void:",
+				"func spawn_enemy() -> void:",
+				"func _on_enemy_removed() -> void:"
+			],
+			"language": "gd",
+			"path": "res:///world/spawner.gd",
+			"signals": []
+		},
+		{
+			"content": "class_name Hitbox extends Area2D\n\n@export var damage: = 1\n@export var knockback_amount: = 200\n@export var knockback_direction: Vector2\n@export var stores_hit_targets: bool = false\n\nvar hit_targets: Array\n\nfunc clear_hit_targets() -> void:\n\thit_targets.clear()\n",
+			"exports": [
+				"@export var damage: = 1",
+				"@export var knockback_amount: = 200",
+				"@export var knockback_direction: Vector2",
+				"@export var stores_hit_targets: bool = false"
+			],
+			"functions": [
+				"func clear_hit_targets() -> void:"
+			],
+			"language": "gd",
+			"path": "res:///damage_boxes/hitbox.gd",
+			"signals": []
+		},
+		{
+			"content": "class_name Hurtbox extends Area2D\n\nsignal hurt(hitbox: Hitbox)\n\nfunc _ready() -> void:\n\tarea_entered.connect(_on_area_entered)\n\nfunc _on_area_entered(area_2d: Area2D) -> void:\n\tif area_2d is not Hitbox: return\n\tvar hitbox = area_2d as Hitbox\n\tif self in hitbox.hit_targets: return\n\tif hitbox.stores_hit_targets: hitbox.hit_targets.append(self)\n\thurt.emit(hitbox)\n",
+			"exports": [],
+			"functions": [
+				"func _ready() -> void:",
+				"func _on_area_entered(area_2d: Area2D) -> void:"
+			],
+			"language": "gd",
+			"path": "res:///damage_boxes/hurtbox.gd",
+			"signals": [
+				"signal hurt(hitbox: Hitbox)"
+			]
+		},
+		{
+			"content": "class_name Player extends CharacterBody2D\n\nconst SPEED = 100.0\nconst ROLL_SPEED = 125.0\n\n@export var stats: Stats\n\nvar input_vector: = Vector2.ZERO\nvar last_input_vector: = Vector2.DOWN\n\n@onready var animation_tree: AnimationTree = $AnimationTree\n@onready var playback = animation_tree.get(\"parameters/StateMachine/playback\") as AnimationNodeStateMachinePlayback\n@onready var hurtbox: Hurtbox = $Hurtbox\n@onready var hitbox: Hitbox = $Hitbox\n@onready var blink_animation_player: AnimationPlayer = $BlinkAnimationPlayer\n@onready var hurt_audio_stream_player: AudioStreamPlayer = $HurtAudioStreamPlayer\n\nfunc _ready() -> void:\n\thurtbox.hurt.connect(take_hit.call_deferred)\n\tstats.no_health.connect(die)\n\t\n\t# Conecta o sinal de level_up para atualizar o dano\n\tstats.level_up.connect(_on_level_up)\n\t\n\t# Conecta os sinais globais de experiência\n\tGameEvents.grass_cut.connect(_on_grass_cut)\n\tGameEvents.enemy_defeated.connect(_on_enemy_defeated)\n\t\n\t# Define o dano inicial baseado no nível atual\n\tupdate_attack_damage()\n\nfunc _physics_process(delta: float) -> void:\n\tvar state = playback.get_current_node()\n\tmatch state:\n\t\t\"MoveState\": move_state(delta)\n\t\t\"AttackState\": pass\n\t\t\"RollState\": roll_state(delta)\n\nfunc die() -> void:\n\thide()\n\tremove_from_group(\"player\")\n\tprocess_mode = Node.PROCESS_MODE_DISABLED\n\nfunc take_hit(other_hitbox: Hitbox) -> void:\n\thurt_audio_stream_player.play()\n\tstats.health -= other_hitbox.damage\n\tblink_animation_player.play(\"blink\")\n\t# CHAMA O NÚMERO FLUTUANTE AQUI (Pode usar uma cor diferente via código se desejar)\n\tGameEvents.spawn_damage_number(other_hitbox.damage, global_position + Vector2(0, -10))\n\nfunc _on_level_up(_new_level: int) -> void:\n\tupdate_attack_damage()\n\tprint(\"Level Up! Novo dano: \", hitbox.damage)\n\nfunc update_attack_damage() -> void:\n\t# Update dmg ao subir de nivel\n\thitbox.damage = 1 + stats.level\n\nfunc _on_grass_cut(amount: int):\n\tstats.add_experience(amount)\n\t\nfunc _on_enemy_defeated(enemy_level: int, _unused_base_xp: int):\n\tvar level_distance = abs(enemy_level - stats.level)\n\tvar multiplier = clamp(1.0 - (float(level_distance) / 10.0), 0.0, 1.0)\n\tvar final_xp = int(stats.BASE_ENEMY_XP * multiplier)\n\t\n\tstats.add_experience(final_xp)\n\t\n\t# Debug para acompanhar no console\n\tprint(\"Inimigo Lvl: %d | Distância: %d | Mult: %.2f | XP Ganha: %d\" % [enemy_level, level_distance, multiplier, final_xp])\n\nfunc move_state(delta: float) -> void:\n\tinput_vector = Input.get_vector(\"move_left\", \"move_right\", \"move_up\", \"move_down\")\n\t\t\t\n\tif input_vector != Vector2.ZERO:\n\t\tlast_input_vector = input_vector\n\t\tvar direction_vector: = Vector2(input_vector.x, -input_vector.y)\n\t\tupdate_blend_positions(direction_vector)\n\t\n\tif Input.is_action_just_pressed(\"attack\"):\n\t\tplayback.travel(\"AttackState\")\n\t\n\tif Input.is_action_just_pressed(\"roll\"):\n\t\tplayback.travel(\"RollState\")\n\t\n\tvelocity = input_vector * SPEED\n\tmove_and_slide()\n\nfunc roll_state(delta: float) -> void:\n\tvelocity = last_input_vector.normalized() * ROLL_SPEED\n\tmove_and_slide()\n\nfunc update_blend_positions(direction_vector: Vector2) -> void:\n\tanimation_tree.set(\"parameters/StateMachine/MoveState/RunState/blend_position\", direction_vector)\n\tanimation_tree.set(\"parameters/StateMachine/MoveState/StandState/blend_position\", direction_vector)\n\tanimation_tree.set(\"parameters/StateMachine/AttackState/blend_position\", direction_vector)\n\tanimation_tree.set(\"parameters/StateMachine/RollState/blend_position\", direction_vector)\n",
+			"exports": [
+				"@export var stats: Stats"
+			],
+			"functions": [
+				"func _ready() -> void:",
+				"func _physics_process(delta: float) -> void:",
+				"func die() -> void:",
+				"func take_hit(other_hitbox: Hitbox) -> void:",
+				"func _on_level_up(_new_level: int) -> void:",
+				"func update_attack_damage() -> void:",
+				"func _on_grass_cut(amount: int):",
+				"func _on_enemy_defeated(enemy_level: int, _unused_base_xp: int):",
+				"func move_state(delta: float) -> void:",
+				"func roll_state(delta: float) -> void:",
+				"func update_blend_positions(direction_vector: Vector2) -> void:"
+			],
+			"language": "gd",
+			"path": "res:///player/player.gd",
+			"signals": []
+		},
+		{
+			"content": "extends Node\n\nsignal grass_cut(xp_amount: int)\nsignal enemy_defeated(enemy_level: int, base_xp: int)\n\n# Pré-carrega a cena para ganhar performance\nconst DAMAGE_NUMBER_SCENE = preload(\"res://ui/damage_number.tscn\")\n\nfunc spawn_damage_number(value: int, pos: Vector2) -> void:\n\tvar number = DAMAGE_NUMBER_SCENE.instantiate()\n\t# Adiciona o número à cena principal para ele não ser deletado com o monstro\n\tget_tree().current_scene.add_child(number)\n\t\n\t# Posiciona o número e inicia a animação\n\tnumber.global_position = pos\n\tnumber.set_value_and_animate(value)\n",
+			"exports": [],
+			"functions": [
+				"func spawn_damage_number(value: int, pos: Vector2) -> void:"
+			],
+			"language": "gd",
+			"path": "res:///game_events.gd",
+			"signals": [
+				"signal grass_cut(xp_amount: int)",
+				"signal enemy_defeated(enemy_level: int, base_xp: int)"
+			]
+		},
+		{
+			"content": "extends Enemy # Agora ele estende a nossa nova classe!\n\nconst SPEED = 30\nconst FRICTION = 500\n\n@export var min_range: = 4\n@export var max_range: = 128\n\n@onready var sprite_2d: Sprite2D = $Sprite2D\n@onready var animation_tree: AnimationTree = $AnimationTree\n@onready var playback = animation_tree.get(\"parameters/StateMachine/playback\") as AnimationNodeStateMachinePlayback\n@onready var marker_2d: Marker2D = $Marker2D\n@onready var navigation_agent_2d: NavigationAgent2D = $Marker2D/NavigationAgent2D\n\n# Substituímos o _ready pelo _child_ready da superclasse\nfunc _child_ready() -> void:\n\tpass\n\nfunc _physics_process(delta: float) -> void:\n\tvar state = playback.get_current_node()\n\tmatch state:\n\t\t\"IdleState\":\n\t\t\tif can_see_player(max_range):\n\t\t\t\tplayback.travel(\"ChaseState\")\n\t\t\n\t\t\"ChaseState\":\n\t\t\tvar player = get_player()\n\t\t\tif player:\n\t\t\t\tnavigation_agent_2d.target_position = player.global_position\n\t\t\t\tvar next_point = navigation_agent_2d.get_next_path_position()\n\t\t\t\tvelocity = global_position.direction_to(next_point - marker_2d.position) * SPEED\n\t\t\t\tsprite_2d.scale.x = sign(velocity.x) if velocity.x != 0 else sprite_2d.scale.x\n\t\t\t\n\t\t\tif not is_player_in_range(max_range * 1.5): # Margem para parar de perseguir\n\t\t\t\tplayback.travel(\"IdleState\")\n\t\t\t\t\n\t\t\tmove_and_slide()\n\t\t\t\n\t\t\"HitState\":\n\t\t\tvelocity = velocity.move_toward(Vector2.ZERO, FRICTION * delta)\n\t\t\tmove_and_slide()\n\n# Implementamos o que acontece especificamente com o morcego ao levar hit\nfunc _on_hit_taken(other_hitbox: Hitbox) -> void:\n\tvelocity = other_hitbox.knockback_direction * other_hitbox.knockback_amount\n\tplayback.start(\"HitState\")\n",
+			"exports": [
+				"@export var min_range: = 4",
+				"@export var max_range: = 128"
+			],
+			"functions": [
+				"func _child_ready() -> void:",
+				"func _physics_process(delta: float) -> void:",
+				"func _on_hit_taken(other_hitbox: Hitbox) -> void:"
+			],
+			"language": "gd",
+			"path": "res:///enemies/purple_bat.gd",
+			"signals": []
+		},
+		{
+			"content": "class_name Enemy extends CharacterBody2D\n\n# Efeitos comuns\nconst HIT_EFFECT = preload(\"uid://bkexmlihmpv74\")\nconst DEATH_EFFECT = preload(\"uid://ra0kqr8k26y5\")\n\n# Configurações de Nível e Ratios\n@export_group(\"Level System\")\n@export var enemy_level: int = 1\n@export var hp_ratio: float = 1.0          # Multiplica o HP base do nível\n@export var experience_ratio: float = 1.0  # Multiplica a XP base\n@export var vision_ratio: float = 1.0      # Multiplica o alcance da visão\n\n@export_group(\"Combat\")\n@export var stats: Stats\n\n# Referências comuns que todo inimigo tem\n@onready var hurtbox: Hurtbox = $Hurtbox\n@onready var hitbox: Hitbox = $Hitbox\n@onready var ray_cast_2d: RayCast2D = $RayCast2D\n@onready var center: Marker2D = $Center\n\n# Novas referências para a UI flutuante\n@onready var health_bar: ProgressBar = $HealthBarAnchor/ProgressBar\n@onready var level_label: Label = $HealthBarAnchor/LevelLabel\n\nfunc _ready() -> void:\n\t# Importante: Duplicar o resource para que um morcego não compartilhe HP com outro\n\tif stats:\n\t\tstats = stats.duplicate()\n\t\tsetup_stats()\n\t\t# Conecta a mudança de vida à barra de progresso\n\t\tstats.health_changed.connect(_on_health_changed)\n\t\tstats.no_health.connect(die)\n\t\n\tif hurtbox:\n\t\thurtbox.hurt.connect(take_hit.call_deferred)\n\t\t\n\tsetup_combat()\n\tsetup_overhead_ui()\n\t_child_ready()\n\n# Função virtual para ser usada nas subclasses (como o _ready)\nfunc _child_ready() -> void:\n\tpass\n\nfunc setup_stats() -> void:\n\t# Matemática de Escalonamento Base\n\t# Exemplo: HP base começa em 5 e ganha 1 por nível\n\tvar base_hp_for_level = 4 + enemy_level\n\tstats.max_health = int(base_hp_for_level * hp_ratio)\n\tstats.health = stats.max_health\n\t\nfunc setup_combat() -> void:\n\t# Define o dano do inimigo igual ao seu nível\n\tif hitbox:\n\t\thitbox.damage = enemy_level\n\nfunc setup_overhead_ui() -> void:\n\tif health_bar:\n\t\thealth_bar.max_value = stats.max_health\n\t\thealth_bar.value = stats.health\n\tif level_label:\n\t\tlevel_label.text = str(enemy_level)\n\nfunc _on_health_changed(new_health: int) -> void:\n\tif health_bar:\n\t\t# Atualiza a barra com um Tween opcional para suavidade\n\t\tvar tween = create_tween()\n\t\ttween.tween_property(health_bar, \"value\", new_health, 0.2)\n\nfunc get_player() -> Player:\n\treturn get_tree().get_first_node_in_group(\"player\") as Player\n\nfunc is_player_in_range(custom_range: float) -> bool:\n\tvar player = get_player()\n\tif player:\n\t\t# Aplica o vision_ratio ao alcance solicitado\n\t\tvar adjusted_range = custom_range * vision_ratio\n\t\treturn global_position.distance_to(player.global_position) <= adjusted_range\n\treturn false\n\nfunc can_see_player(max_view_distance: float) -> bool:\n\tif not is_player_in_range(max_view_distance): return false\n\t\n\tvar player = get_player()\n\tray_cast_2d.target_position = player.global_position - global_position\n\tray_cast_2d.force_raycast_update()\n\treturn not ray_cast_2d.is_colliding()\n\nfunc take_hit(other_hitbox: Hitbox) -> void:\n\tvar effect = HIT_EFFECT.instantiate()\n\tget_tree().current_scene.add_child(effect)\n\teffect.global_position = center.global_position\n\t\n\tstats.health -= other_hitbox.damage\n\t\n\t# CHAMA O NÚMERO FLUTUANTE AQUI\n\tGameEvents.spawn_damage_number(other_hitbox.damage, global_position + Vector2(0, -10))\n\t# O knockback ainda é responsabilidade da subclasse processar na física, \n\t# mas a força nós recebemos aqui.\n\t_on_hit_taken(other_hitbox)\n\n# Para a subclasse decidir se entra em estado de Hit ou toca som\nfunc _on_hit_taken(_hb: Hitbox) -> void:\n\tpass\n\nfunc die() -> void:\n\t# A XP agora considera o ratio do monstro específico\n\tvar final_xp_to_emit = int(stats.BASE_ENEMY_XP * experience_ratio)\n\tGameEvents.enemy_defeated.emit(enemy_level, final_xp_to_emit)\n\t\n\tvar death_effect = DEATH_EFFECT.instantiate()\n\tget_tree().current_scene.add_child(death_effect)\n\tdeath_effect.global_position = global_position\n\tqueue_free()\n",
+			"exports": [
+				"@export_group(\"Level System\")",
+				"@export var enemy_level: int = 1",
+				"@export var hp_ratio: float = 1.0          # Multiplica o HP base do nível",
+				"@export var experience_ratio: float = 1.0  # Multiplica a XP base",
+				"@export var vision_ratio: float = 1.0      # Multiplica o alcance da visão",
+				"@export_group(\"Combat\")",
+				"@export var stats: Stats"
+			],
+			"functions": [
+				"func _ready() -> void:",
+				"func _child_ready() -> void:",
+				"func setup_stats() -> void:",
+				"func setup_combat() -> void:",
+				"func setup_overhead_ui() -> void:",
+				"func _on_health_changed(new_health: int) -> void:",
+				"func get_player() -> Player:",
+				"func is_player_in_range(custom_range: float) -> bool:",
+				"func can_see_player(max_view_distance: float) -> bool:",
+				"func take_hit(other_hitbox: Hitbox) -> void:",
+				"func _on_hit_taken(_hb: Hitbox) -> void:",
+				"func die() -> void:"
+			],
+			"language": "gd",
+			"path": "res:///enemies/enemy.gd",
+			"signals": []
+		},
+		{
+			"content": "class_name Stats extends Resource\n\n@export var health: = 4 :\n\tset(value):\n\t\tvar previous_health = health\n\t\thealth = clamp(value, 0, max_health)\n\t\tif health != previous_health: health_changed.emit(health)\n\t\tif health <= 0: no_health.emit()\n\n# Valor base de XP para qualquer inimigo\nconst BASE_ENEMY_XP = 215\n@export var max_health: = 4\n@export var level: int = 1\n@export var experience: int = 0\n@export var experience_required: int = 750\n\nsignal health_changed(new_health)\nsignal no_health()\nsignal level_up(new_level)\nsignal xp_changed(current_xp, required_xp)\n\nfunc add_experience(amount: int):\n\texperience += amount\n\twhile experience >= experience_required:\n\t\tlevel_up_process()\n\txp_changed.emit(experience, experience_required)\n\nfunc level_up_process():\n\texperience -= experience_required\n\tmax_health += 1\n\thealth += 1\n\tlevel += 1\n\t# Exemplo de curva: aumenta 10% a cada nível\n\texperience_required = int(experience_required * 1.1)\n\tlevel_up.emit(level)\n",
+			"exports": [
+				"@export var health: = 4 :",
+				"@export var max_health: = 4",
+				"@export var level: int = 1",
+				"@export var experience: int = 0",
+				"@export var experience_required: int = 750"
+			],
+			"functions": [
+				"func add_experience(amount: int):",
+				"func level_up_process():"
+			],
+			"language": "gd",
+			"path": "res:///stats.gd",
+			"signals": [
+				"signal health_changed(new_health)",
+				"signal no_health()",
+				"signal level_up(new_level)",
+				"signal xp_changed(current_xp, required_xp)"
+			]
+		},
+		{
+			"content": "extends Control\n\n@export var player_stats: Stats\n\n@onready var empty_hearts: TextureRect = $EmptyHearts\n@onready var full_hearts: TextureRect = $FullHearts\n\nconst TOTAL_WIDTH = 60\n\nfunc _ready() -> void:\n\tplayer_stats.health_changed.connect(animate_heart_change)\n\tempty_hearts.size.x = TOTAL_WIDTH\n\tupdate_heart_width(player_stats.health)\n\nfunc animate_heart_change(current_health: int) -> void:\n\n\tvar target_width = (float(current_health) / player_stats.max_health) * TOTAL_WIDTH\n\tvar tween = create_tween()\n\ttween.tween_property(full_hearts, \"size:x\", target_width, 0.4)\\\n\t\t.set_trans(Tween.TRANS_SINE)\\\n\t\t.set_ease(Tween.EASE_OUT)\n\nfunc update_heart_width(current_health: int) -> void:\n\tvar target_width = (float(current_health) / player_stats.max_health) * TOTAL_WIDTH\n\tfull_hearts.size.x = target_width\n",
+			"exports": [
+				"@export var player_stats: Stats"
+			],
+			"functions": [
+				"func _ready() -> void:",
+				"func animate_heart_change(current_health: int) -> void:",
+				"func update_heart_width(current_health: int) -> void:"
+			],
+			"language": "gd",
+			"path": "res:///ui/hearts_ui.gd",
+			"signals": []
+		},
+		{
+			"content": "extends Control\n\n@export var player_stats: Stats\n\n@onready var progress_bar: ProgressBar = $ProgressBar\n@onready var level_number: Label = $LevelContainer/LevelNumber\n\nfunc _ready() -> void:\n\tplayer_stats.xp_changed.connect(update_xp_bar)\n\tplayer_stats.level_up.connect(update_level_display)\n\t\n\t# Inicializa os valores\n\tupdate_xp_bar(player_stats.experience, player_stats.experience_required)\n\tupdate_level_display(player_stats.level)\n\nfunc update_xp_bar(current_xp: int, required_xp: int) -> void:\n\tprogress_bar.max_value = required_xp\n\tprogress_bar.value = current_xp\n\nfunc update_level_display(new_level: int) -> void:\n\tlevel_number.text = str(new_level)\n",
+			"exports": [
+				"@export var player_stats: Stats"
+			],
+			"functions": [
+				"func _ready() -> void:",
+				"func update_xp_bar(current_xp: int, required_xp: int) -> void:",
+				"func update_level_display(new_level: int) -> void:"
+			],
+			"language": "gd",
+			"path": "res:///ui/experience_ui.gd",
+			"signals": []
+		},
+		{
+			"content": "extends Label\n\nfunc set_value_and_animate(value: int) -> void:\n\ttext = str(value)\n\t\n\t# Faz o número ser independente do movimento do pai (inimigo/player)\n\ttop_level = true\n\t\n\tvar tween = create_tween().set_parallel(true)\n\t\n\t# Animação 1: Sobe 20 pixels verticalmente\n\ttween.tween_property(self, \"position:y\", position.y - 20, 0.5)\\\n\t\t.set_trans(Tween.TRANS_QUART)\\\n\t\t.set_ease(Tween.EASE_OUT)\n\t\n\t# Animação 2: Desaparece (Alpha vai para 0)\n\ttween.tween_property(self, \"modulate:a\", 0.0, 0.5)\\\n\t\t.set_delay(0.2)\n\t\n\t# Animação 3: Pequeno efeito de escala (Bounce)\n\tscale = Vector2.ZERO\n\ttween.tween_property(self, \"scale\", Vector2.ONE, 0.2)\\\n\t\t.set_trans(Tween.TRANS_BACK)\\\n\t\t.set_ease(Tween.EASE_OUT)\n\t\n\t# Auto-destruição ao finalizar as animações\n\ttween.chain().tween_callback(queue_free)\n",
+			"exports": [],
+			"functions": [
+				"func set_value_and_animate(value: int) -> void:"
+			],
+			"language": "gd",
+			"path": "res:///ui/damage_number.gd",
+			"signals": []
+		}
+	]
+}
