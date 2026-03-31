@@ -28,8 +28,8 @@ func add_experience(amount: int):
 func level_up_process():
 	experience -= experience_required
 	max_health += 1
-	health += 1
 	level += 1
-	# Exemplo de curva: aumenta 10% a cada nível
+	health += (level / 2)
+	# Curva de nível: aumenta 10% a cada nível
 	experience_required = int(experience_required * 1.1)
 	level_up.emit(level)

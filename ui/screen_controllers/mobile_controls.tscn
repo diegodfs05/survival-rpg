@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=3 uid="uid://cj8whjehw6yh6"]
+
+[ext_resource type="Script" uid="uid://i0rigy5o71fy" path="res://ui/screen_controllers/virtual_joystick.gd" id="1_a146q"]
+[ext_resource type="Script" uid="uid://cxi61f28sbef4" path="res://ui/screen_controllers/touch_button.gd" id="2_8fn1x"]
+
+[node name="MobileUI" type="CanvasLayer"]
+
+[node name="ControlesContainer" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ControlesContainer"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VirtualJoystick" type="Control" parent="ControlesContainer/HBoxContainer"]
+layout_mode = 2
+script = ExtResource("1_a146q")
+
+[node name="Base" type="TextureRect" parent="ControlesContainer/HBoxContainer/VirtualJoystick"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Stick" type="TextureRect" parent="ControlesContainer/HBoxContainer/VirtualJoystick"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ButtonsContainer" type="Control" parent="ControlesContainer/HBoxContainer"]
+layout_mode = 2
+
+[node name="Attack" type="TouchScreenButton" parent="ControlesContainer/HBoxContainer/ButtonsContainer"]
+script = ExtResource("2_8fn1x")
+
+[node name="Roll" type="TouchScreenButton" parent="ControlesContainer/HBoxContainer/ButtonsContainer"]
+script = ExtResource("2_8fn1x")
+action_name = "roll"

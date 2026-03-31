@@ -15,7 +15,7 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 [application]
 
 config/name="Survival RPG Diego"
-run/main_scene="uid://c6voj8psa80tg"
+run/main_scene="uid://b1a8ksu4md7ot"
 config/features=PackedStringArray("4.5", "Forward Plus")
 boot_splash/show_image=false
 boot_splash/fullsize=false
@@ -33,6 +33,7 @@ window/size/viewport_height=180
 window/size/window_width_override=1280
 window/size/window_height_override=720
 window/stretch/mode="canvas_items"
+window/handheld/orientation=4
 window/vsync/vsync_mode=3
 
 [editor_plugins]
@@ -92,6 +93,10 @@ attack={
 , Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"button_index":2,"pressure":0.0,"pressed":true,"script":null)
 ]
 }
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
 
 [layer_names]
 

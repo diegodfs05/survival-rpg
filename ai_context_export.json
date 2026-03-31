@@ -2,13 +2,13 @@
 	"autoloads": {
 		"GameEvents": "*uid://xd27d1lm80bo"
 	},
-	"generated_timestamp": "2026-03-27T13:45:28",
-	"project_name": "YouTube Action RPG",
+	"generated_timestamp": "2026-03-29T17:42:51",
+	"project_name": "Survival RPG Diego",
 	"project_settings": {
 		"application": {
 			"description": "",
-			"main_scene": "uid://c6voj8psa80tg",
-			"name": "YouTube Action RPG"
+			"main_scene": "uid://b1a8ksu4md7ot",
+			"name": "Survival RPG Diego"
 		},
 		"display": {
 			"height": 180,
@@ -412,7 +412,7 @@
 								"name": "AnimationPlayer",
 								"properties": {
 									"libraries": {
-										"": "<AnimationLibrary#-9223369636622284512>"
+										"": "<AnimationLibrary#-9223369720978126614>"
 									}
 								},
 								"script": "",
@@ -438,12 +438,12 @@
 										-0.00550258019939065,
 										-0.466033011674881
 									],
-									"parameters/StateMachine/MoveState/playback": "<AnimationNodeStateMachinePlayback#-9223366434287941550>",
+									"parameters/StateMachine/MoveState/playback": "<AnimationNodeStateMachinePlayback#-9223352936749233154>",
 									"parameters/StateMachine/RollState/blend_position": [
 										0.00078403897350654,
 										-0.487875998020172
 									],
-									"parameters/StateMachine/playback": "<AnimationNodeStateMachinePlayback#-9223366434321495985>",
+									"parameters/StateMachine/playback": "<AnimationNodeStateMachinePlayback#-9223352936782806235>",
 									"parameters/TimeScale/scale": 1.0,
 									"tree_root": "res://player/player.tscn::AnimationNodeBlendTree_g1dw6"
 								},
@@ -559,7 +559,7 @@
 								"name": "BlinkAnimationPlayer",
 								"properties": {
 									"libraries": {
-										"": "<AnimationLibrary#-9223369635900864181>"
+										"": "<AnimationLibrary#-9223369720256706283>"
 									}
 								},
 								"script": "",
@@ -2387,7 +2387,7 @@
 						"name": "AnimationPlayer",
 						"properties": {
 							"libraries": {
-								"": "<AnimationLibrary#-9223369636622284512>"
+								"": "<AnimationLibrary#-9223369720978126614>"
 							}
 						},
 						"script": "",
@@ -2413,12 +2413,12 @@
 								-0.00550258019939065,
 								-0.466033011674881
 							],
-							"parameters/StateMachine/MoveState/playback": "<AnimationNodeStateMachinePlayback#-9223366427795158627>",
+							"parameters/StateMachine/MoveState/playback": "<AnimationNodeStateMachinePlayback#-9223352930256468885>",
 							"parameters/StateMachine/RollState/blend_position": [
 								0.00078403897350654,
 								-0.487875998020172
 							],
-							"parameters/StateMachine/playback": "<AnimationNodeStateMachinePlayback#-9223366427828713058>",
+							"parameters/StateMachine/playback": "<AnimationNodeStateMachinePlayback#-9223352930290023324>",
 							"parameters/TimeScale/scale": 1.0,
 							"tree_root": "res://player/player.tscn::AnimationNodeBlendTree_g1dw6"
 						},
@@ -2534,7 +2534,7 @@
 						"name": "BlinkAnimationPlayer",
 						"properties": {
 							"libraries": {
-								"": "<AnimationLibrary#-9223369635900864181>"
+								"": "<AnimationLibrary#-9223369720256706283>"
 							}
 						},
 						"script": "",
@@ -2750,7 +2750,9 @@
 						"groups": [],
 						"name": "AnimationPlayer",
 						"properties": {
-
+							"libraries": {
+								"": "<AnimationLibrary#-9223369708462323199>"
+							}
 						},
 						"script": "",
 						"type": "AnimationPlayer"
@@ -2762,7 +2764,7 @@
 						"properties": {
 							"advance_expression_base_node": "..",
 							"anim_player": "../AnimationPlayer",
-							"parameters/StateMachine/playback": "<AnimationNodeStateMachinePlayback#-9223366426218100243>",
+							"parameters/StateMachine/playback": "<AnimationNodeStateMachinePlayback#-9223352928679410501>",
 							"tree_root": "res://enemies/purple_bat.tscn::AnimationNodeBlendTree_f4281"
 						},
 						"script": "",
@@ -3106,6 +3108,122 @@
 				},
 				"script": "",
 				"type": "AnimatedSprite2D"
+			}
+		},
+		{
+			"path": "res:///ui/main_menu/main_menu.tscn",
+			"root_node": {
+				"children": [
+					{
+						"children": [],
+						"groups": [],
+						"name": "Background",
+						"properties": {
+							"anchors_preset": 15,
+							"layout_mode": 1
+						},
+						"script": "",
+						"type": "TextureRect"
+					},
+					{
+						"children": [
+							{
+								"children": [
+									{
+										"children": [],
+										"groups": [],
+										"name": "Title",
+										"properties": {
+											"layout_mode": 2,
+											"text": "EDENS FELL"
+										},
+										"script": "",
+										"type": "Label"
+									},
+									{
+										"children": [
+											{
+												"children": [],
+												"groups": [],
+												"name": "StartButton",
+												"properties": {
+													"layout_mode": 2,
+													"text": "Start"
+												},
+												"script": "",
+												"type": "Button"
+											},
+											{
+												"children": [],
+												"groups": [],
+												"name": "GameModesButton",
+												"properties": {
+													"layout_mode": 2,
+													"text": "Game Modes\n"
+												},
+												"script": "",
+												"type": "Button"
+											},
+											{
+												"children": [],
+												"groups": [],
+												"name": "SettingsButton",
+												"properties": {
+													"layout_mode": 2,
+													"text": "Settings\n"
+												},
+												"script": "",
+												"type": "Button"
+											},
+											{
+												"children": [],
+												"groups": [],
+												"name": "QuitButton",
+												"properties": {
+													"layout_mode": 2,
+													"text": "Exit"
+												},
+												"script": "",
+												"type": "Button"
+											}
+										],
+										"groups": [],
+										"name": "ButtonsContainer",
+										"properties": {
+											"layout_mode": 2
+										},
+										"script": "",
+										"type": "VBoxContainer"
+									}
+								],
+								"groups": [],
+								"name": "MainLayout",
+								"properties": {
+									"layout_mode": 2
+								},
+								"script": "",
+								"type": "VBoxContainer"
+							}
+						],
+						"groups": [],
+						"name": "MarginContainer",
+						"properties": {
+							"layout_mode": 0,
+							"theme_override_constants/margin_left": 15,
+							"theme_override_constants/margin_top": 6
+						},
+						"script": "",
+						"type": "MarginContainer"
+					}
+				],
+				"groups": [],
+				"name": "MainMenu",
+				"properties": {
+					"anchors_preset": 15,
+					"script": "res://ui/main_menu/main_menu.gd"
+				},
+				"script": "res://ui/main_menu/main_menu.gd",
+				"type": "Control"
 			}
 		},
 		{
@@ -3494,7 +3612,7 @@
 			"signals": []
 		},
 		{
-			"content": "class_name Stats extends Resource\n\n@export var health: = 4 :\n\tset(value):\n\t\tvar previous_health = health\n\t\thealth = clamp(value, 0, max_health)\n\t\tif health != previous_health: health_changed.emit(health)\n\t\tif health <= 0: no_health.emit()\n\n# Valor base de XP para qualquer inimigo\nconst BASE_ENEMY_XP = 215\n@export var max_health: = 4\n@export var level: int = 1\n@export var experience: int = 0\n@export var experience_required: int = 750\n\nsignal health_changed(new_health)\nsignal no_health()\nsignal level_up(new_level)\nsignal xp_changed(current_xp, required_xp)\n\nfunc add_experience(amount: int):\n\texperience += amount\n\twhile experience >= experience_required:\n\t\tlevel_up_process()\n\txp_changed.emit(experience, experience_required)\n\nfunc level_up_process():\n\texperience -= experience_required\n\tmax_health += 1\n\thealth += 1\n\tlevel += 1\n\t# Exemplo de curva: aumenta 10% a cada nível\n\texperience_required = int(experience_required * 1.1)\n\tlevel_up.emit(level)\n",
+			"content": "class_name Stats extends Resource\n\n@export var health: = 4 :\n\tset(value):\n\t\tvar previous_health = health\n\t\thealth = clamp(value, 0, max_health)\n\t\tif health != previous_health: health_changed.emit(health)\n\t\tif health <= 0: no_health.emit()\n\n# Valor base de XP para qualquer inimigo\nconst BASE_ENEMY_XP = 215\n@export var max_health: = 4\n@export var level: int = 1\n@export var experience: int = 0\n@export var experience_required: int = 750\n\nsignal health_changed(new_health)\nsignal no_health()\nsignal level_up(new_level)\nsignal xp_changed(current_xp, required_xp)\n\nfunc add_experience(amount: int):\n\texperience += amount\n\twhile experience >= experience_required:\n\t\tlevel_up_process()\n\txp_changed.emit(experience, experience_required)\n\nfunc level_up_process():\n\texperience -= experience_required\n\tmax_health += 1\n\tlevel += 1\n\thealth += (level / 2)\n\t# Curva de nível: aumenta 10% a cada nível\n\texperience_required = int(experience_required * 1.1)\n\tlevel_up.emit(level)\n",
 			"exports": [
 				"@export var health: = 4 :",
 				"@export var max_health: = 4",
@@ -3514,6 +3632,20 @@
 				"signal level_up(new_level)",
 				"signal xp_changed(current_xp, required_xp)"
 			]
+		},
+		{
+			"content": "extends Control\n\n# Caminho para a cena principal do jogo\nconst WORLD_SCENE_PATH = \"res://world.tscn\"\n\n@onready var start_button: Button = %StartButton\n@onready var game_modes_button: Button = %GameModesButton\n@onready var settings_button: Button = %SettingsButton\n@onready var quit_button: Button = %QuitButton\n\nfunc _ready() -> void:\n\t# Foca no botão de iniciar para suportar controle/teclado de cara\n\tstart_button.grab_focus()\n\t\n\t# Conexão de sinais\n\tstart_button.pressed.connect(_on_start_pressed)\n\tgame_modes_button.pressed.connect(_on_game_modes_pressed)\n\tsettings_button.pressed.connect(_on_settings_pressed)\n\tquit_button.pressed.connect(_on_quit_pressed)\n\nfunc _on_start_pressed() -> void:\n\t# Troca para a cena do mundo\n\tget_tree().change_scene_to_file(WORLD_SCENE_PATH)\n\nfunc _on_game_modes_pressed() -> void:\n\t# Aqui você pode abrir um sub-menu ou trocar de cena\n\tprint(\"Abrir Seleção de Modos\")\n\nfunc _on_settings_pressed() -> void:\n\t# Sugestão: Instanciar um popup de configurações ou trocar de cena\n\tprint(\"Abrir Configurações\")\n\nfunc _on_quit_pressed() -> void:\n\tget_tree().quit()\n",
+			"exports": [],
+			"functions": [
+				"func _ready() -> void:",
+				"func _on_start_pressed() -> void:",
+				"func _on_game_modes_pressed() -> void:",
+				"func _on_settings_pressed() -> void:",
+				"func _on_quit_pressed() -> void:"
+			],
+			"language": "gd",
+			"path": "res:///ui/main_menu/main_menu.gd",
+			"signals": []
 		},
 		{
 			"content": "extends Control\n\n@export var player_stats: Stats\n\n@onready var empty_hearts: TextureRect = $EmptyHearts\n@onready var full_hearts: TextureRect = $FullHearts\n\nconst TOTAL_WIDTH = 60\n\nfunc _ready() -> void:\n\tplayer_stats.health_changed.connect(animate_heart_change)\n\tempty_hearts.size.x = TOTAL_WIDTH\n\tupdate_heart_width(player_stats.health)\n\nfunc animate_heart_change(current_health: int) -> void:\n\n\tvar target_width = (float(current_health) / player_stats.max_health) * TOTAL_WIDTH\n\tvar tween = create_tween()\n\ttween.tween_property(full_hearts, \"size:x\", target_width, 0.4)\\\n\t\t.set_trans(Tween.TRANS_SINE)\\\n\t\t.set_ease(Tween.EASE_OUT)\n\nfunc update_heart_width(current_health: int) -> void:\n\tvar target_width = (float(current_health) / player_stats.max_health) * TOTAL_WIDTH\n\tfull_hearts.size.x = target_width\n",
